@@ -1,0 +1,8 @@
+# kicad backups and stuff
+*.bak
+*.bck
+*.dcm
+*.lib
+*.000
+*.stf
+

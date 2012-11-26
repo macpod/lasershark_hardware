@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 31 Oct 2012 02:20:18 AM EDT
+EESchema Schematic File Version 2  date Sun 25 Nov 2012 12:39:03 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "31 oct 2012"
+Date "25 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -242,12 +242,12 @@ Wire Wire Line
 Wire Wire Line
 	2400 1300 1750 1300
 $Comp
-L HEADER1X3 JP9
+L HEADER1X3 JP7
 U 1 1 50732F2C
 P 1750 5500
-F 0 "JP9" H 1750 5300 60  0000 C CNN
+F 0 "JP7" H 1750 5300 60  0000 C CNN
 F 1 "PWR_SEL" V 1650 5350 60  0000 L CNN
-F 2 "HEADER_2_54X3" V 1750 5350 60  0001 C CNN
+F 2 "154-15410-E" V 1750 5350 60  0001 C CNN
 	1    1750 5500
 	1    0    0    -1  
 $EndComp
@@ -463,12 +463,12 @@ F 1 "GND" H 1550 4405 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER_POL1X2 JP8
+L HEADER_POL1X2 JP6
 U 1 1 507770FC
 P 1750 5000
-F 0 "JP8" H 1750 4850 60  0000 C CNN
+F 0 "JP6" H 1750 4850 60  0000 C CNN
 F 1 "EXT_PWR" V 1625 4900 60  0000 L CNN
-F 2 "61900211121" V 1725 4900 60  0001 C CNN
+F 2 "FTSH-105-01" V 1725 4900 60  0001 C CNN
 F 4 "61900211121" H 1750 5000 60  0001 C CNN "Manf"
 	1    1750 5000
 	1    0    0    -1  
