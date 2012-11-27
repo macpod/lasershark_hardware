@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 27 Nov 2012 12:58:28 AM EST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 27 Nov 2012 01:37:50 AM EST
 
 BeginCmp
 TimeStamp = /507240BD;
@@ -288,10 +288,10 @@ IdModule  = 61900211121;
 EndCmp
 
 BeginCmp
-TimeStamp = /5073C5B4/50B1BF19;
+TimeStamp = /5073C5B4/50B47E0D;
 Reference = JP13;
-ValeurCmp = D;
-IdModule  = HEADER_2_54X1;
+ValeurCmp = INTL;
+IdModule  = 61900211121;
 EndCmp
 
 BeginCmp
@@ -654,6 +654,13 @@ EndCmp
 BeginCmp
 TimeStamp = /50726B4C/50B06749;
 Reference = R47;
+ValeurCmp = 150;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50726B4C/50B4A4D1;
+Reference = R48;
 ValeurCmp = 150;
 IdModule  = 0603;
 EndCmp
