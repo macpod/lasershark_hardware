@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Sun 25 Nov 2012 12:39:37 AM EST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Mon 26 Nov 2012 12:28:13 AM EST
 
 BeginCmp
 TimeStamp = /507240BD;
@@ -197,17 +197,17 @@ IdModule  = LASERSHARK_LOGO;
 EndCmp
 
 BeginCmp
-TimeStamp = /507307E9;
+TimeStamp = /50B30CA1;
 Reference = JP1;
 ValeurCmp = I2C;
-IdModule  = HEADER_2_54X2;
+IdModule  = HEADER_2_54X3;
 EndCmp
 
 BeginCmp
-TimeStamp = /50722121;
+TimeStamp = /50B302ED;
 Reference = JP2;
 ValeurCmp = SPI;
-IdModule  = HEADER_2_54X3;
+IdModule  = HEADER_2_54X4;
 EndCmp
 
 BeginCmp

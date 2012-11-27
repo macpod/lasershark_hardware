@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 25 Nov 2012 12:39:08 AM EST
+# EESchema Netlist Version 1.1 created  Mon 26 Nov 2012 09:17:54 PM EST
 (
  ( /5071000D LPC1343_LQFP48  U2 LPC1343 {Lib=LPC1343}
   (    1 ? )
@@ -6,8 +6,8 @@
   (    3 /RESET )
   (    4 /USB_FTOGGLE )
   (    5 GND )
-  (    6 N-000023 )
-  (    7 N-000024 )
+  (    6 N-000014 )
+  (    7 N-000015 )
   (    8 +3.3V )
   (    9 ? )
   (   10 /SSEL0 )
@@ -63,16 +63,16 @@
   (    1 ? )
  )
  ( /5071029E ABLS-14.31818MHZ-B4-T  Y1 12Mhz {Lib=CRYSTAL}
-  (    1 N-000023 )
-  (    2 N-000024 )
+  (    1 N-000014 )
+  (    2 N-000015 )
  )
  ( /507102AD 0603  C3 22pF {Lib=CAP_NONPOL}
   (    1 GND )
-  (    2 N-000023 )
+  (    2 N-000014 )
  )
  ( /507102C6 0603  C4 22pF {Lib=CAP_NONPOL}
   (    1 GND )
-  (    2 N-000024 )
+  (    2 N-000015 )
  )
  ( /507119C5 FTSH-105-01  JP4 SWD {Lib=SWD_HEADER}
   (    1 +3.3V )
@@ -112,8 +112,8 @@
  )
  ( /5071E073 154-15410-E  JP5 154-15410-E {Lib=154-15410-E}
   (    1 N-000001 )
-  (    2 N-000033 )
-  (    3 N-000036 )
+  (    2 N-000006 )
+  (    3 N-000034 )
   (    4 ? )
   (    5 GND )
   (    6 GND )
@@ -130,17 +130,12 @@
   (    2 /RESET )
  )
  ( /5071EEF7 LED_0603  D3 PWR {Lib=LED}
-  (    1 N-000007 )
+  (    1 N-000002 )
   (    2 GND )
  )
  ( /5071EF06 0603  R6 1K {Lib=RES}
-  (    1 N-000006 )
+  (    1 N-000004 )
   (    2 +3.3V )
- )
- ( /50722121 HEADER_2_54X3  JP2 SPI {Lib=HEADER1X3}
-  (    1 /MOSI )
-  (    2 /SSEL0 )
-  (    3 /SCK )
  )
  ( /50723159 0603  C6 0.1uF {Lib=CAP_NONPOL}
   (    1 GND )
@@ -171,16 +166,12 @@
   (    2 +4.096V_REF )
  )
  ( /5073049B 0603  R7 360 {Lib=RES}
-  (    1 N-000007 )
+  (    1 N-000002 )
   (    2 +3.3V )
  )
  ( /5073058A LED_0603  D2 USR1 {Lib=LED}
-  (    1 N-000006 )
+  (    1 N-000004 )
   (    2 /USR1_LED )
- )
- ( /507307E9 HEADER_2_54X2  JP1 I2C {Lib=HEADER1X2}
-  (    1 /SDA )
-  (    2 /SCL )
  )
  ( /50730882 0603  R1 NP {Lib=RES}
   (    1 /SDA )
@@ -192,11 +183,11 @@
  )
  ( /50730CCD 0603  R12 33 {Lib=RES}
   (    1 /DM )
-  (    2 N-000033 )
+  (    2 N-000006 )
  )
  ( /50730F98 0603  R10 33 {Lib=RES}
   (    1 /DP )
-  (    2 N-000036 )
+  (    2 N-000034 )
  )
  ( /50732C6F 0603  C5 0.1uF {Lib=CAP_NONPOL}
   (    1 GND )
@@ -207,16 +198,16 @@
   (    2 +3.3V )
  )
  ( /50736377 0603  R8 360 {Lib=RES}
-  (    1 N-000035 )
-  (    2 N-000034 )
+  (    1 N-000033 )
+  (    2 N-000032 )
  )
  ( /50736390 LED_0603  D4 USB {Lib=LED}
-  (    1 N-000035 )
+  (    1 N-000033 )
   (    2 GND )
  )
  ( /50736BB6 0603  R11 1.5K {Lib=RES}
-  (    1 N-000036 )
-  (    2 N-000034 )
+  (    1 N-000034 )
+  (    2 N-000032 )
  )
  ( /507389BA 0603  R2 1K {Lib=RES}
   (    1 /USB_VBUS )
@@ -235,7 +226,7 @@
   (    2 /USB_FTOGGLE )
  )
  ( /5073A93B LED_0603  D1 USR2 {Lib=LED}
-  (    1 N-000008 )
+  (    1 N-000012 )
   (    2 /USR2_LED )
  )
  ( /50777695 3-1437565-0  S2 RST {Lib=BUTTON_NO_X4}
@@ -244,30 +235,41 @@
   (    3 /RESET )
   (    4 ? )
  )
- ( /507782AE 3-1437565-0  S1 PGRM {Lib=BUTTON_NO_X4}
+ ( /507782AE 3-1437565-0  S1 PGM {Lib=BUTTON_NO_X4}
   (    1 GND )
   (    2 ? )
   (    3 /USB_FTOGGLE )
   (    4 ? )
  )
  ( /50779A90 0603  R5 1K {Lib=RES}
-  (    1 N-000008 )
+  (    1 N-000012 )
   (    2 +3.3V )
  )
  ( /5079E37D LASERSHARK_LOGO  G1 LASERSHARK_LOGO {Lib=LASERSHARK_LOGO}
  )
  ( /50736195 BSS84_SOT23_3  Q1 BSS84 {Lib=MOSFET_P-CHANNEL}
   (    1 /USB_CONNECT )
-  (    2 N-000034 )
+  (    2 N-000032 )
   (    3 +3.3V )
  )
- ( /50B1A7FA $noname  JP3 HEADER1X6 {Lib=HEADER1X6}
+ ( /50B1A7FA HEADER_2_54X6  JP3 UART {Lib=HEADER1X6}
   (    1 GND )
   (    2 /RTS )
   (    3 ? )
   (    4 /RX )
   (    5 /TX )
   (    6 /CTS )
+ )
+ ( /50B302ED HEADER_2_54X4  JP2 SPI {Lib=HEADER1X4}
+  (    1 GND )
+  (    2 /MOSI )
+  (    3 /SSEL0 )
+  (    4 /SCK )
+ )
+ ( /50B30CA1 HEADER_2_54X3  JP1 I2C {Lib=HEADER1X3}
+  (    1 GND )
+  (    2 /SDA )
+  (    3 /SCL )
  )
  ( /5071D7A1/5071D872 1206  C17 10uF {Lib=CAP_NONPOL}
   (    1 GND )
@@ -294,7 +296,7 @@
   (    1 GND )
   (    2 +5V )
  )
- ( /5071D7A1/50732F2C 154-15410-E  JP7 PWR_SEL {Lib=HEADER1X3}
+ ( /5071D7A1/50732F2C HEADER_2_54X3  JP7 PWR_SEL {Lib=HEADER1X3}
   (    1 /lasershark_power/EXT_5V )
   (    2 +5V )
   (    3 USB_VCC )
@@ -317,33 +319,33 @@
   (    1 GND )
   (    2 +5V )
  )
- ( /5071D7A1/507770FC FTSH-105-01  JP6 EXT_PWR {Lib=HEADER_POL1X2}
+ ( /5071D7A1/507770FC 61900211121  JP6 EXT_PWR {Lib=HEADER_POL1X2}
   (    1 GND )
   (    2 /lasershark_power/EXT_5V )
  )
- ( /5073C5B4/5073A25B 61900211121  JP8 X {Lib=HEADER_POL1X3}
+ ( /5073C5B4/5073A25B 61900311121  JP8 X {Lib=HEADER_POL1X3}
   (    1 GND )
   (    2 /lasershark_amplifiers/ILDA_X- )
   (    3 /lasershark_amplifiers/ILDA_X+ )
  )
- ( /5073C5B4/5073A26F HEADER_2_54X3  JP9 Y {Lib=HEADER_POL1X3}
+ ( /5073C5B4/5073A26F 61900311121  JP9 Y {Lib=HEADER_POL1X3}
   (    1 GND )
   (    2 /lasershark_amplifiers/ILDA_Y- )
   (    3 /lasershark_amplifiers/ILDA_Y+ )
  )
- ( /5073C5B4/50AEFBEA 61900311121  JP10 A {Lib=HEADER_POL1X2}
+ ( /5073C5B4/50AEFBEA 61900211121  JP10 A {Lib=HEADER_POL1X2}
   (    1 GND )
   (    2 /lasershark_amplifiers/A_OUT )
  )
- ( /5073C5B4/50AEFC03 61900311121  JP11 B {Lib=HEADER_POL1X2}
+ ( /5073C5B4/50AEFC03 61900211121  JP11 B {Lib=HEADER_POL1X2}
   (    1 GND )
   (    2 /lasershark_amplifiers/B_OUT )
  )
- ( /5073C5B4/50AF0CA9 61900311121  JP12 C {Lib=HEADER1X2}
+ ( /5073C5B4/50AF0CA9 61900211121  JP12 C {Lib=HEADER1X2}
   (    1 GND )
   (    2 /lasershark_amplifiers/C_OUT )
  )
- ( /5073C5B4/50B1BF19 61900311121  JP13 D {Lib=HEADER1X1}
+ ( /5073C5B4/50B1BF19 HEADER_2_54X1  JP13 D {Lib=HEADER1X1}
   (    1 /lasershark_amplifiers/D_OUT )
  )
  ( /50726B4C/5074D8C4 PVZ3A501C01B00  RV1 1K {Lib=POTENTIOMETER}
@@ -454,13 +456,13 @@
   (    5 N-000099 )
   (    6 N-000095 )
   (    7 N-000094 )
-  (    8 N-000105 )
-  (    9 N-000106 )
+  (    8 N-000093 )
+  (    9 N-000092 )
   (   10 GND )
   (   11 -12V )
   (   12 GND )
-  (   13 N-000092 )
-  (   14 N-000093 )
+  (   13 N-000106 )
+  (   14 N-000105 )
  )
  ( /50726B4C/5074EE0E 0603  C22 0.1uF {Lib=CAP_NONPOL}
   (    1 GND )
@@ -494,7 +496,7 @@
   (    1 N-000113 )
   (    2 N-000114 )
  )
- ( /50726B4C/50B066ED MC33072ADG  U8 MC33074ADG {Lib=MC33074ADG}
+ ( /50726B4C/50B066ED MC33074ADG  U8 MC33074ADG {Lib=MC33074ADG}
   (    1 N-000117 )
   (    2 N-000116 )
   (    3 N-000097 )
@@ -546,295 +548,297 @@
 *
 { Pin List by Nets
 Net 1 "" ""
- JP5 1
  FB1 2
+ JP5 1
  C11 2
-Net 2 "+3.3V" "+3.3V"
- U5 3
- Q1 3
- R9 2
- JP4 1
- U2 8
- R4 2
- R1 2
- C8 2
- C5 2
- R5 2
- R7 2
- R13 2
- R6 2
- R15 2
- C18 2
- U2 44
-Net 3 "USB_VCC" "USB_VCC"
- FB1 1
- C9 2
- C10 2
- JP7 3
- R2 2
-Net 4 "+5V" "+5V"
- C2 2
- U4 1
- U3 1
- C15 2
- JP7 2
- C1 2
- U1 1
- C16 2
- C14 2
- C17 2
- U5 1
- U6 1
-Net 5 "+4.096V_REF" "+4.096V_REF"
- U3 2
- C7 2
- C6 2
- U1 7
-Net 6 "" ""
- D2 1
- R6 1
-Net 7 "" ""
+Net 2 "" ""
  R7 1
  D3 1
-Net 8 "" ""
+Net 3 "USB_VCC" "USB_VCC"
+ JP7 3
+ C9 2
+ FB1 1
+ R2 2
+ C10 2
+Net 4 "" ""
+ D2 1
+ R6 1
+Net 5 "+4.096V_REF" "+4.096V_REF"
+ C6 2
+ C7 2
+ U1 7
+ U3 2
+Net 6 "" ""
+ JP5 2
+ R12 2
+Net 7 "+5V" "+5V"
+ JP7 2
+ U6 1
+ C16 2
+ C15 2
+ U4 1
+ U3 1
+ C1 2
+ U1 1
+ C2 2
+ U5 1
+ C17 2
+ C14 2
+Net 12 "" ""
  D1 1
  R5 1
-Net 11 "/lasershark_amplifiers/D_OUT" "D_OUT"
- R47 2
- JP13 1
-Net 12 "/lasershark_amplifiers/A" "A"
- R32 1
- U1 4
-Net 13 "/lasershark_amplifiers/B" "B"
- U1 5
- R33 1
-Net 14 "/lasershark_amplifiers/ILDA_X+" "ILDA_X+"
- JP8 3
+Net 13 "+3.3V" "+3.3V"
+ U2 8
+ JP4 1
+ U2 44
+ R15 2
+ R13 2
+ R6 2
+ C8 2
+ R7 2
+ R1 2
+ R4 2
+ R5 2
+ Q1 3
+ C5 2
+ U5 3
+ C18 2
+ R9 2
+Net 14 "" ""
+ C3 2
+ Y1 1
+ U2 6
+Net 15 "" ""
+ U2 7
+ C4 2
+ Y1 2
+Net 16 "/lasershark_amplifiers/ILDA_X+" "ILDA_X+"
  R28 2
-Net 15 "/lasershark_amplifiers/ILDA_X-" "ILDA_X-"
+ JP8 3
+Net 17 "/lasershark_amplifiers/ILDA_X-" "ILDA_X-"
  R29 2
  JP8 2
-Net 16 "/lasershark_amplifiers/ILDA_Y+" "ILDA_Y+"
+Net 18 "/lasershark_amplifiers/ILDA_Y+" "ILDA_Y+"
  R30 2
  JP9 3
-Net 17 "/lasershark_amplifiers/ILDA_Y-" "ILDA_Y-"
- JP9 2
+Net 19 "/lasershark_amplifiers/ILDA_Y-" "ILDA_Y-"
  R31 2
-Net 18 "/lasershark_amplifiers/A_OUT" "A_OUT"
+ JP9 2
+Net 20 "/lasershark_amplifiers/A_OUT" "A_OUT"
  R38 2
  JP10 2
-Net 19 "/lasershark_amplifiers/B_OUT" "B_OUT"
+Net 21 "/lasershark_amplifiers/B_OUT" "B_OUT"
  R39 2
  JP11 2
-Net 20 "/lasershark_amplifiers/C_OUT" "C_OUT"
- R46 2
+Net 22 "/lasershark_amplifiers/C_OUT" "C_OUT"
  JP12 2
-Net 23 "" ""
- C3 2
- U2 6
- Y1 1
-Net 24 "" ""
- Y1 2
- C4 2
- U2 7
-Net 29 "GND" "GND"
- C17 1
- U5 2
- U5 4
+ R46 2
+Net 23 "/lasershark_amplifiers/D_OUT" "D_OUT"
+ JP13 1
+ R47 2
+Net 24 "GND" "GND"
  JP6 1
- R3 1
- C7 1
- C2 1
- D4 2
+ C18 1
+ C17 1
+ U5 4
+ U5 2
  C12 1
+ U1 6
+ R3 1
+ S2 1
+ D4 2
  C15 1
  C14 1
  U3 3
- S2 1
  U4 3
- C8 1
- S1 1
  C5 1
- U1 6
- C1 1
- JP8 1
+ C8 1
+ C7 1
+ S1 1
  JP12 1
  JP11 1
  JP10 1
- U7 10
+ U7 12
  R35 1
  R34 1
  C21 1
  C22 1
- U7 12
+ U7 10
  C19 1
+ RV1 1
  JP9 1
+ JP8 1
  C16 1
  U6 4
  U6 2
- RV1 1
  RV2 3
  C20 1
  R43 1
- C18 1
  R42 1
- JP5 9
+ C2 1
+ C3 1
+ C4 1
+ U2 5
  U2 41
  C13 1
- C6 1
  JP4 3
- D3 2
- C4 1
- C3 1
- U2 5
+ JP5 9
+ C10 1
+ R14 1
+ JP4 9
+ JP4 7
+ C6 1
+ JP5 8
+ JP5 7
+ JP5 6
+ JP5 5
  C9 1
  C11 1
- JP3 1
- JP4 7
- C10 1
- JP5 5
- JP5 6
- JP5 7
- R14 1
  JP4 5
- JP4 9
- JP5 8
-Net 33 "" ""
- JP5 2
- R12 2
-Net 34 "" ""
+ JP3 1
+ JP1 1
+ D3 2
+ C1 1
+ JP2 1
+Net 32 "" ""
  R11 2
  R8 2
  Q1 2
-Net 35 "" ""
+Net 33 "" ""
  R8 1
  D4 1
-Net 36 "" ""
- R10 2
+Net 34 "" ""
  JP5 3
  R11 1
-Net 40 "/SWCLK" "SWCLK"
+ R10 2
+Net 38 "/SWCLK" "SWCLK"
  JP4 4
  R14 2
  U2 29
-Net 41 "/MOSI" "MOSI"
- JP2 1
- U2 28
+Net 39 "/MOSI" "MOSI"
  U1 8
-Net 42 "/SSEL0" "SSEL0"
- U1 9
- U2 10
  JP2 2
-Net 43 "/lasershark_amplifiers/X" "X"
- U1 2
- R16 1
-Net 44 "/lasershark_amplifiers/Y" "Y"
+ U2 28
+Net 40 "/lasershark_amplifiers/Y" "Y"
  R17 1
  U1 3
-Net 45 "/DM" "DM"
- R12 1
- U2 19
+Net 41 "/lasershark_amplifiers/X" "X"
+ R16 1
+ U1 2
+Net 42 "/lasershark_amplifiers/A" "A"
+ R32 1
+ U1 4
+Net 43 "/lasershark_amplifiers/B" "B"
+ U1 5
+ R33 1
+Net 44 "/SSEL0" "SSEL0"
+ JP2 3
+ U2 10
+ U1 9
+Net 45 "/SCK" "SCK"
+ JP2 4
+ U2 31
+ U1 10
 Net 46 "/RESET" "RESET"
- U2 3
  C13 2
  R15 1
  JP4 10
+ U2 3
  S2 3
-Net 47 "/SCK" "SCK"
- U2 31
- JP2 3
- U1 10
+Net 47 "/DM" "DM"
+ U2 19
+ R12 1
 Net 48 "/SWDIO" "SWDIO"
  U2 39
- R13 1
  JP4 2
+ R13 1
 Net 53 "/DP" "DP"
  R10 1
  U2 20
-Net 72 "/USR1_LED" "USR1_LED"
- U2 24
- D2 2
-Net 75 "/USR2_LED" "USR2_LED"
- D1 2
- U2 25
-Net 76 "/USB_CONNECT" "USB_CONNECT"
+Net 54 "/USB_CONNECT" "USB_CONNECT"
  Q1 1
  U2 22
-Net 77 "/USB_VBUS" "USB_VBUS"
- U2 14
- R2 1
+Net 60 "/USR1_LED" "USR1_LED"
+ U2 24
+ D2 2
+Net 62 "/USB_VBUS" "USB_VBUS"
  R3 2
-Net 78 "/USB_FTOGGLE" "USB_FTOGGLE"
- S1 3
- C12 2
+ R2 1
+ U2 14
+Net 63 "/USB_FTOGGLE" "USB_FTOGGLE"
  R9 1
  U2 4
-Net 79 "/SDA" "SDA"
+ C12 2
+ S1 3
+Net 75 "/USR2_LED" "USR2_LED"
+ U2 25
+ D1 2
+Net 77 "/SDA" "SDA"
+ JP1 2
  U2 16
  R1 1
- JP1 1
-Net 80 "/SCL" "SCL"
+Net 78 "/SCL" "SCL"
  R4 1
  U2 15
- JP1 2
-Net 84 "/RTS" "RTS"
- U2 45
- JP3 2
-Net 85 "/CTS" "CTS"
- JP3 6
+ JP1 3
+Net 84 "/CTS" "CTS"
  U2 23
+ JP3 6
+Net 85 "/RTS" "RTS"
+ JP3 2
+ U2 45
 Net 86 "/TX" "TX"
  JP3 5
  U2 47
 Net 87 "/RX" "RX"
- U2 46
  JP3 4
+ U2 46
 Net 88 "+2.048V_REF" "+2.048V_REF"
  R21 1
- R20 1
  U4 2
+ R20 1
 Net 89 "/lasershark_power/EXT_5V" "EXT_5V"
- JP7 1
  JP6 2
+ JP7 1
 Net 90 "-12V" "-12V"
- C22 2
- C20 2
  U8 11
  U7 11
+ C22 2
+ C20 2
  U6 3
 Net 91 "+12V" "+12V"
- U7 4
  C19 2
  C21 2
- U8 4
  U6 5
+ U7 4
+ U8 4
 Net 92 "" ""
- R25 2
- U7 13
+ U7 9
  R27 1
+ R25 2
 Net 93 "" ""
  R27 2
- U7 14
  R31 1
+ U7 8
 Net 94 "" ""
  RV4 2
- U7 7
  R30 1
  R25 1
+ U7 7
 Net 95 "" ""
- R23 1
  R21 2
+ R23 1
  U7 6
 Net 96 "" ""
- R20 2
  R22 1
+ R20 2
  U7 2
 Net 97 "" ""
  R32 2
  U8 3
 Net 98 "" ""
- RV2 2
  R19 1
+ RV2 2
 Net 99 "" ""
  R19 2
  R17 2
@@ -843,44 +847,44 @@ Net 100 "" ""
  RV3 1
  R22 2
 Net 101 "" ""
- RV3 2
- U7 1
  R28 1
+ U7 1
  R24 1
+ RV3 2
 Net 103 "" ""
  RV1 2
  R18 1
 Net 104 "" ""
- U7 3
  R16 2
  R18 2
+ U7 3
 Net 105 "" ""
  R29 1
  R26 2
- U7 8
+ U7 14
 Net 106 "" ""
  R24 2
- U7 9
+ U7 13
  R26 1
 Net 107 "" ""
  R41 2
  U8 12
 Net 108 "" ""
- R43 2
  R45 1
+ R43 2
  U8 13
 Net 109 "" ""
- R45 2
- U8 14
  R47 1
+ U8 14
+ R45 2
 Net 110 "" ""
  R42 2
  R44 1
  U8 9
 Net 111 "" ""
+ R44 2
  R46 1
  U8 8
- R44 2
 Net 112 "" ""
  U8 10
  R40 2
@@ -889,9 +893,9 @@ Net 113 "" ""
  R35 2
  R37 1
 Net 114 "" ""
+ R39 1
  R37 2
  U8 7
- R39 1
 Net 115 "" ""
  R33 2
  U8 5
@@ -900,8 +904,8 @@ Net 116 "" ""
  R36 1
  R34 2
 Net 117 "" ""
- U8 1
  R36 2
+ U8 1
  R38 1
 Net 118 "" ""
  RV4 3
