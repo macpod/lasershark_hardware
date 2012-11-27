@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Mon 26 Nov 2012 12:28:13 AM EST
+Cmp-Mod V01 Created by CvPcb (2012-oct-18)-testing date = Tue 27 Nov 2012 12:58:28 AM EST
 
 BeginCmp
 TimeStamp = /507240BD;
@@ -183,6 +183,13 @@ IdModule  = LED_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /50726B4C/50B44D30;
+Reference = D5;
+ValeurCmp = 5.42V;
+IdModule  = DIODE_SOD-323;
+EndCmp
+
+BeginCmp
 TimeStamp = /5071DEEB;
 Reference = FB1;
 ValeurCmp = FERRITE_BEAD;
@@ -213,7 +220,7 @@ EndCmp
 BeginCmp
 TimeStamp = /50B1A7FA;
 Reference = JP3;
-ValeurCmp = HEADER1X6;
+ValeurCmp = UART;
 IdModule  = HEADER_2_54X6;
 EndCmp
 
@@ -682,7 +689,7 @@ EndCmp
 BeginCmp
 TimeStamp = /507782AE;
 Reference = S1;
-ValeurCmp = PGRM;
+ValeurCmp = PGM;
 IdModule  = 3-1437565-0;
 EndCmp
 
