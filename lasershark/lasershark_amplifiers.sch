@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 26 Nov 2012 09:17:29 PM EST
+EESchema Schematic File Version 2  date Tue 27 Nov 2012 12:44:30 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -1001,4 +1001,33 @@ F 2 "MC33074ADG" V 10200 2000 60  0001 C CNN
 $EndComp
 Text Notes 9550 750  0    60   ~ 0
 Slightly less OK
+$Comp
+L GND #PWR?
+U 1 1 50B44D21
+P 3450 7100
+F 0 "#PWR?" H 3450 7050 30  0001 C CNN
+F 1 "GND" H 3450 7055 30  0001 C CNN
+	1    3450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 50B44D30
+P 3450 6900
+F 0 "D?" H 3450 7100 60  0000 C CNN
+F 1 "5.42V" H 3450 6775 60  0000 C CNN
+	1    3450 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 7050 3450 7100
+Wire Wire Line
+	3450 6750 3450 6700
+Wire Wire Line
+	3150 6700 3750 6700
+Connection ~ 3450 6700
+Text HLabel 3150 6700 0    60   Input ~ 0
+gg
+Text HLabel 3750 6700 2    60   Output ~ 0
+ff
 $EndSCHEMATC
