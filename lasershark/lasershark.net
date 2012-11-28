@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 27 Nov 2012 09:34:13 PM EST
+# EESchema Netlist Version 1.1 created  Tue 27 Nov 2012 10:37:28 PM EST
 (
  ( /5071000D LPC1343_LQFP48  U2 LPC1343 {Lib=LPC1343}
   (    1 ? )
@@ -151,10 +151,10 @@
  )
  ( /5072499A DAC124S085  U1 DAC124S085 {Lib=DAC124S085}
   (    1 +5V )
-  (    2 /lasershark_amplifiers/X )
-  (    3 /lasershark_amplifiers/Y )
-  (    4 /lasershark_amplifiers/A )
-  (    5 /lasershark_amplifiers/B )
+  (    2 /lasershark_amplifiers/A )
+  (    3 /lasershark_amplifiers/B )
+  (    4 /lasershark_amplifiers/X )
+  (    5 /lasershark_amplifiers/Y )
   (    6 GND )
   (    7 +4.096V_REF )
   (    8 /MOSI )
@@ -740,19 +740,19 @@ Net 40 "/SWCLK" "SWCLK"
  R14 2
 Net 41 "/MOSI" "MOSI"
  U1 8
- JP2 2
  U2 28
+ JP2 2
 Net 42 "/lasershark_amplifiers/X" "X"
- U1 2
+ U1 4
  R16 1
 Net 43 "/lasershark_amplifiers/Y" "Y"
- U1 3
+ U1 5
  R17 1
 Net 44 "/lasershark_amplifiers/A" "A"
- U1 4
+ U1 2
  R33 1
 Net 45 "/lasershark_amplifiers/B" "B"
- U1 5
+ U1 3
  R32 1
 Net 46 "/SSEL0" "SSEL0"
  U1 9
