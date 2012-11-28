@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 27 Nov 2012 11:22:05 PM EST
+EESchema Schematic File Version 2  date Wed 28 Nov 2012 12:51:08 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -475,4 +475,56 @@ F 4 "61900211121" H 1750 5000 60  0001 C CNN "Manf"
 $EndComp
 Text Label 1900 5400 0    60   ~ 0
 EXT_5V
+$Comp
+L HEADER1X3 JP14
+U 1 1 50B5AF60
+P 1750 6100
+F 0 "JP14" H 1750 5900 60  0000 C CNN
+F 1 "PWR" V 1650 5950 60  0000 L CNN
+	1    1750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 50B5AF74
+P 2150 5950
+F 0 "#PWR?" H 2150 6040 20  0001 C CNN
+F 1 "+5V" H 2150 6040 30  0000 C CNN
+	1    2150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 50B5AF88
+P 2300 5950
+F 0 "#PWR?" H 2300 6040 20  0001 C CNN
+F 1 "+3.3V" H 2300 6040 30  0000 C CNN
+	1    2300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 50B5AF97
+P 2050 6100
+F 0 "#PWR?" H 2050 6050 30  0001 C CNN
+F 1 "GND" H 2050 6055 30  0001 C CNN
+	1    2050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6100 1950 6100
+Wire Wire Line
+	1950 6100 1950 6050
+Wire Wire Line
+	1950 6050 2050 6050
+Wire Wire Line
+	2050 6050 2050 6100
+Wire Wire Line
+	1850 6000 2150 6000
+Wire Wire Line
+	2150 6000 2150 5950
+Wire Wire Line
+	1850 6200 2300 6200
+Wire Wire Line
+	2300 6200 2300 5950
 $EndSCHEMATC
