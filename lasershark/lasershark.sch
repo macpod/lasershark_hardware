@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 27 Nov 2012 10:37:04 PM EST
+EESchema Schematic File Version 2  date Tue 27 Nov 2012 11:22:05 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -760,9 +760,9 @@ Text Label 6350 5350 0    60   ~ 0
 PIO0_11
 Text Label 6350 5250 0    60   ~ 0
 INTERLOCK_B
-Text Label 6350 5150 0    60   ~ 0
-INTERLOCK_A
 Text Label 6350 5050 0    60   ~ 0
+INTERLOCK_A
+Text Label 6350 5150 0    60   ~ 0
 C
 Text Label 6350 4950 0    60   ~ 0
 PIO3_0
@@ -1396,9 +1396,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 5250 6300 5250
 Wire Wire Line
-	6950 5150 6300 5150
+	6950 5050 6300 5050
 Wire Wire Line
-	6700 5050 6300 5050
+	6700 5150 6300 5150
 Wire Wire Line
 	6700 4950 6300 4950
 Wire Wire Line

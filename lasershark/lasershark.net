@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 27 Nov 2012 10:37:28 PM EST
+# EESchema Netlist Version 1.1 created  Tue 27 Nov 2012 11:22:10 PM EST
 (
  ( /5071000D LPC1343_LQFP48  U2 LPC1343 {Lib=LPC1343}
   (    1 ? )
@@ -34,8 +34,8 @@
   (   31 /SCK )
   (   32 ? )
   (   33 /lasershark_amplifiers/INTERLOCK_B )
-  (   34 /lasershark_amplifiers/INTERLOCK_A )
-  (   35 /lasershark_amplifiers/C )
+  (   34 /lasershark_amplifiers/C )
+  (   35 /lasershark_amplifiers/INTERLOCK_A )
   (   36 ? )
   (   37 ? )
   (   38 ? )
@@ -688,9 +688,9 @@ Net 16 "GND" "GND"
  R43 1
 Net 17 "/lasershark_amplifiers/INTERLOCK_A" "INTERLOCK_A"
  R41 1
- U2 34
-Net 18 "/lasershark_amplifiers/C" "C"
  U2 35
+Net 18 "/lasershark_amplifiers/C" "C"
+ U2 34
  R40 1
 Net 19 "/lasershark_amplifiers/C_OUT" "C_OUT"
  R46 2
