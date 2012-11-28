@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 27 Nov 2012 01:37:58 AM EST
+EESchema Schematic File Version 2  date Tue 27 Nov 2012 10:37:04 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "27 nov 2012"
+Date "28 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 27 Nov 2012 01:37:58 AM EST
+EESchema Schematic File Version 2  date Tue 27 Nov 2012 10:37:04 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "27 nov 2012"
+Date "28 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -26,13 +26,13 @@ ILDA_Y+
 Text HLabel 4950 5400 2    60   Output ~ 0
 ILDA_Y-
 Text HLabel 5650 2300 0    60   Input ~ 0
-A
-Text HLabel 5650 5350 0    60   Input ~ 0
 B
+Text HLabel 5650 5350 0    60   Input ~ 0
+A
 Text HLabel 7900 2200 2    60   Output ~ 0
-A_OUT
-Text HLabel 7900 5250 2    60   Output ~ 0
 B_OUT
+Text HLabel 7900 5250 2    60   Output ~ 0
+A_OUT
 Text HLabel 650  5400 0    60   Input ~ 0
 Y
 Text HLabel 650  2350 0    60   Input ~ 0
@@ -900,12 +900,12 @@ Wire Wire Line
 	8200 4350 8200 4400
 $Comp
 L MC33074ADG U8
-U 4 1 50B06777
+U 3 1 50B06777
 P 9250 5700
 F 0 "U8" H 9000 5250 60  0000 C CNN
 F 1 "MC33074ADG" V 9600 5400 60  0000 C CNN
 F 2 "MC33074ADG" V 9700 5400 60  0001 C CNN
-	4    9250 5700
+	3    9250 5700
 	1    0    0    -1  
 $EndComp
 Text HLabel 8500 2300 0    60   Input ~ 0
@@ -991,12 +991,12 @@ Wire Wire Line
 	8650 850  8650 900 
 $Comp
 L MC33074ADG U8
-U 3 1 50B067AE
+U 4 1 50B067AE
 P 9700 2200
 F 0 "U8" H 9450 1750 60  0000 C CNN
 F 1 "MC33074ADG" V 10050 1900 60  0000 C CNN
 F 2 "MC33074ADG" V 10150 1900 60  0001 C CNN
-	3    9700 2200
+	4    9700 2200
 	1    0    0    -1  
 $EndComp
 Text Notes 9500 650  0    60   ~ 0

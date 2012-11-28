@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 27 Nov 2012 01:37:58 AM EST
+EESchema Schematic File Version 2  date Tue 27 Nov 2012 10:37:04 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "LaserShark board"
-Date "27 nov 2012"
+Date "28 nov 2012"
 Rev "1"
 Comp "Jeffrey Nelson"
 Comment1 ""
@@ -454,13 +454,13 @@ F 1 "GND" H 3600 1405 30  0001 C CNN
 	1    3600 1450
 	1    0    0    -1  
 $EndComp
-Text Label 1300 850  0    60   ~ 0
-X
-Text Label 1300 950  0    60   ~ 0
-Y
 Text Label 1300 1050 0    60   ~ 0
-A
+X
 Text Label 1300 1150 0    60   ~ 0
+Y
+Text Label 1300 850  0    60   ~ 0
+A
+Text Label 1300 950  0    60   ~ 0
 B
 $Comp
 L GND #PWR020
@@ -1269,13 +1269,13 @@ Wire Wire Line
 	3600 1000 3600 1100
 Connection ~ 3600 1050
 Wire Wire Line
-	1250 850  1450 850 
-Wire Wire Line
-	1450 950  1250 950 
+	1250 1050 1450 1050
 Wire Wire Line
 	1450 1150 1250 1150
 Wire Wire Line
-	1250 1050 1450 1050
+	1450 950  1250 950 
+Wire Wire Line
+	1250 850  1450 850 
 Wire Wire Line
 	2750 1150 2950 1150
 Wire Wire Line
@@ -1340,7 +1340,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 3350 10250 3350
 Wire Wire Line
-	10250 4150 10250 3350
+	10250 3350 10250 4150
 Wire Wire Line
 	10150 3250 10150 3350
 Wire Wire Line
@@ -1457,7 +1457,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3700 9850 3800
 Wire Wire Line
-	9700 4150 10250 4150
+	10250 4150 9700 4150
 Wire Wire Line
 	9850 4150 9850 4100
 Connection ~ 9850 4150
