@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 28 Nov 2012 12:51:08 AM EST
+EESchema Schematic File Version 2  date Mon 03 Dec 2012 12:48:01 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "LaserShark board"
-Date "28 nov 2012"
+Date "3 dec 2012"
 Rev "1"
 Comp "Jeffrey Nelson"
 Comment1 ""
@@ -318,7 +318,7 @@ P 10650 3550
 F 0 "JP5" H 10700 3050 60  0000 C CNN
 F 1 "154-15410-E" V 11000 3450 60  0000 C CNN
 F 2 "154-15410-E" V 11100 3450 60  0001 C CNN
-F 4 "154-15410-E" V 10850 3550 60  0001 C CNN "Manf"
+F 4 "USB-M26FTR" V 10850 3550 60  0001 C CNN "Manf"
 	1    10650 3550
 	1    0    0    -1  
 $EndComp
@@ -593,7 +593,7 @@ P 8350 6750
 F 0 "D2" H 8350 6950 60  0000 C CNN
 F 1 "USR1" H 8350 6625 60  0000 C CNN
 F 2 "LED_0603" H 8350 6725 60  0001 C CNN
-F 4 "VLMG1300-GS08" H 8350 6750 60  0001 C CNN "Manf"
+F 4 "LS Q976-NR-1" H 8350 6750 60  0001 C CNN "Manf"
 	1    8350 6750
 	0    1    1    0   
 $EndComp
@@ -885,7 +885,7 @@ P 9850 3950
 F 0 "R11" H 9850 3850 60  0000 C CNN
 F 1 "1.5K" H 9850 4050 60  0000 C CNN
 F 2 "0603" H 9850 4150 60  0001 C CNN
-F 4 "RMCF0603FT71K5" H 9850 3950 60  0001 C CNN "Manf"
+F 4 "RMCF0603FT1K50" H 9850 3950 60  0001 C CNN "Manf"
 	1    9850 3950
 	0    -1   -1   0   
 $EndComp
