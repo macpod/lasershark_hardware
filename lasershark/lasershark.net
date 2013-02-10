@@ -1,945 +1,1615 @@
-# EESchema Netlist Version 1.1 created  Wed 28 Nov 2012 12:51:12 AM EST
-(
- ( /5071000D LPC1343_LQFP48  U2 LPC1343 {Lib=LPC1343}
-  (    1 ? )
-  (    2 ? )
-  (    3 /RESET )
-  (    4 /USB_FTOGGLE )
-  (    5 GND )
-  (    6 N-000014 )
-  (    7 N-000015 )
-  (    8 +3.3V )
-  (    9 ? )
-  (   10 /SSEL0 )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 /USB_VBUS )
-  (   15 /SCL )
-  (   16 /SDA )
-  (   17 ? )
-  (   18 ? )
-  (   19 /DM )
-  (   20 /DP )
-  (   21 ? )
-  (   22 /USB_CONNECT )
-  (   23 /CTS )
-  (   24 /USR1_LED )
-  (   25 /USR2_LED )
-  (   26 ? )
-  (   27 ? )
-  (   28 /MOSI )
-  (   29 /SWCLK )
-  (   30 ? )
-  (   31 /SCK )
-  (   32 ? )
-  (   33 /lasershark_amplifiers/INTERLOCK_B )
-  (   34 /lasershark_amplifiers/C )
-  (   35 /lasershark_amplifiers/INTERLOCK_A )
-  (   36 ? )
-  (   37 ? )
-  (   38 ? )
-  (   39 /SWDIO )
-  (   40 ? )
-  (   41 GND )
-  (   42 ? )
-  (   43 ? )
-  (   44 +3.3V )
-  (   45 /RTS )
-  (   46 /RX )
-  (   47 /TX )
-  (   48 ? )
- )
- ( /5071005A 4-40MountHole  MP1 STANDOFF {Lib=STANDOFF}
-  (    1 ? )
- )
- ( /50710069 4-40MountHole  MP3 STANDOFF {Lib=STANDOFF}
-  (    1 ? )
- )
- ( /50710087 4-40MountHole  MP2 STANDOFF {Lib=STANDOFF}
-  (    1 ? )
- )
- ( /507100B4 4-40MountHole  MP4 STANDOFF {Lib=STANDOFF}
-  (    1 ? )
- )
- ( /5071029E ABLS-14.31818MHZ-B4-T  Y1 12Mhz {Lib=CRYSTAL}
-  (    1 N-000014 )
-  (    2 N-000015 )
- )
- ( /507102AD 0603  C3 22pF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 N-000014 )
- )
- ( /507102C6 0603  C4 22pF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 N-000015 )
- )
- ( /507119C5 FTSH-105-01  JP4 SWD {Lib=SWD_HEADER}
-  (    1 +3.3V )
-  (    2 /SWDIO )
-  (    3 GND )
-  (    4 /SWCLK )
-  (    5 GND )
-  (    6 ? )
-  (    7 GND )
-  (    8 ? )
-  (    9 GND )
-  (   10 /RESET )
- )
- ( /5071267F 0603  R14 10K {Lib=RES}
-  (    1 GND )
-  (    2 /SWCLK )
- )
- ( /5071268E 0603  R13 10K {Lib=RES}
-  (    1 /SWDIO )
-  (    2 +3.3V )
- )
- ( /5071DE91 1206  C10 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 USB_VCC )
- )
- ( /5071DEA0 0603  C9 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 USB_VCC )
- )
- ( /5071DEAF 0603  C11 10nF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 N-000003 )
- )
- ( /5071DEEB 0603  FB1 FERRITE_BEAD {Lib=FERRITE_BEAD}
-  (    1 USB_VCC )
-  (    2 N-000003 )
- )
- ( /5071E073 154-15410-E  JP5 154-15410-E {Lib=154-15410-E}
-  (    1 N-000003 )
-  (    2 N-000005 )
-  (    3 N-000036 )
-  (    4 ? )
-  (    5 GND )
-  (    6 GND )
-  (    7 GND )
-  (    8 GND )
-  (    9 GND )
- )
- ( /5071E469 0603  R15 10K {Lib=RES}
-  (    1 /RESET )
-  (    2 +3.3V )
- )
- ( /5071E66C 0603  C13 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 /RESET )
- )
- ( /5071EEF7 LED_0603  D3 PWR {Lib=LED}
-  (    1 N-000001 )
-  (    2 GND )
- )
- ( /5071EF06 0603  R6 1K {Lib=RES}
-  (    1 N-000004 )
-  (    2 +3.3V )
- )
- ( /50723159 0603  C6 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +4.096V_REF )
- )
- ( /507240B7 0603  C2 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /507240BD 1206  C1 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /5072499A DAC124S085  U1 DAC124S085 {Lib=DAC124S085}
-  (    1 +5V )
-  (    2 /lasershark_amplifiers/A )
-  (    3 /lasershark_amplifiers/B )
-  (    4 /lasershark_amplifiers/X )
-  (    5 /lasershark_amplifiers/Y )
-  (    6 GND )
-  (    7 +4.096V_REF )
-  (    8 /MOSI )
-  (    9 /SSEL0 )
-  (   10 /SCK )
- )
- ( /507258D7 1206  C7 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +4.096V_REF )
- )
- ( /5073049B 0603  R7 360 {Lib=RES}
-  (    1 N-000001 )
-  (    2 +3.3V )
- )
- ( /5073058A LED_0603  D2 USR1 {Lib=LED}
-  (    1 N-000004 )
-  (    2 /USR1_LED )
- )
- ( /50730882 0603  R1 NP {Lib=RES}
-  (    1 /SDA )
-  (    2 +3.3V )
- )
- ( /50730A29 0603  R4 NP {Lib=RES}
-  (    1 /SCL )
-  (    2 +3.3V )
- )
- ( /50730CCD 0603  R12 33 {Lib=RES}
-  (    1 /DM )
-  (    2 N-000005 )
- )
- ( /50730F98 0603  R10 33 {Lib=RES}
-  (    1 /DP )
-  (    2 N-000036 )
- )
- ( /50732C6F 0603  C5 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +3.3V )
- )
- ( /50732D5B 0603  C8 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +3.3V )
- )
- ( /50736377 0603  R8 360 {Lib=RES}
-  (    1 N-000035 )
-  (    2 N-000034 )
- )
- ( /50736390 LED_0603  D4 USB {Lib=LED}
-  (    1 N-000035 )
-  (    2 GND )
- )
- ( /50736BB6 0603  R11 1.5K {Lib=RES}
-  (    1 N-000036 )
-  (    2 N-000034 )
- )
- ( /507389BA 0603  R2 1K {Lib=RES}
-  (    1 /USB_VBUS )
-  (    2 USB_VCC )
- )
- ( /507389C9 0603  R3 10K {Lib=RES}
-  (    1 GND )
-  (    2 /USB_VBUS )
- )
- ( /50738E28 0603  R9 10K {Lib=RES}
-  (    1 /USB_FTOGGLE )
-  (    2 +3.3V )
- )
- ( /50738E2E 0603  C12 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 /USB_FTOGGLE )
- )
- ( /5073A93B LED_0603  D1 USR2 {Lib=LED}
-  (    1 N-000012 )
-  (    2 /USR2_LED )
- )
- ( /50777695 3-1437565-0  S2 RST {Lib=BUTTON_NO_X4}
-  (    1 GND )
-  (    2 ? )
-  (    3 /RESET )
-  (    4 ? )
- )
- ( /507782AE 3-1437565-0  S1 PGM {Lib=BUTTON_NO_X4}
-  (    1 GND )
-  (    2 ? )
-  (    3 /USB_FTOGGLE )
-  (    4 ? )
- )
- ( /50779A90 0603  R5 1K {Lib=RES}
-  (    1 N-000012 )
-  (    2 +3.3V )
- )
- ( /5079E37D LASERSHARK_LOGO  G1 LASERSHARK_LOGO {Lib=LASERSHARK_LOGO}
- )
- ( /50736195 BSS84_SOT23_3  Q1 BSS84 {Lib=MOSFET_P-CHANNEL}
-  (    1 /USB_CONNECT )
-  (    2 N-000034 )
-  (    3 +3.3V )
- )
- ( /50B1A7FA HEADER_2_54X6  JP3 UART {Lib=HEADER1X6}
-  (    1 GND )
-  (    2 /RTS )
-  (    3 ? )
-  (    4 /RX )
-  (    5 /TX )
-  (    6 /CTS )
- )
- ( /50B302ED HEADER_2_54X4  JP2 SPI {Lib=HEADER1X4}
-  (    1 GND )
-  (    2 /MOSI )
-  (    3 /SSEL0 )
-  (    4 /SCK )
- )
- ( /50B30CA1 HEADER_2_54X3  JP1 I2C {Lib=HEADER1X3}
-  (    1 GND )
-  (    2 /SDA )
-  (    3 /SCL )
- )
- ( /5071D7A1/5071D872 1206  C17 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /5071D7A1/5071D89A 1206  C18 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +3.3V )
- )
- ( /5071D7A1/5071DA9C TC1262-3.3VDBTR  U5 TC1262 {Lib=TC1262}
-  (    1 +5V )
-  (    2 GND )
-  (    3 +3.3V )
-  (    4 GND )
- )
- ( /5071D7A1/50726EE7 RB-0512D  U6 RB-0512D {Lib=RB-0512D}
-  (    1 +5V )
-  (    2 GND )
-  (    3 -12V )
-  (    4 GND )
-  (    5 +12V )
- )
- ( /5071D7A1/50726F19 1206  C16 10uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /5071D7A1/50732F2C HEADER_2_54X3  JP7 PWR_SEL {Lib=HEADER1X3}
-  (    1 /lasershark_power/EXT_5V )
-  (    2 +5V )
-  (    3 USB_VCC )
- )
- ( /5071D7A1/5074F948 MAX6104EUR+T  U3 MAX6104EUR+T {Lib=MAX6104EUR+T}
-  (    1 +5V )
-  (    2 +4.096V_REF )
-  (    3 GND )
- )
- ( /5071D7A1/5074F957 MAX6106EUR+T  U4 MAX6106EUR+T {Lib=MAX6106EUR+T}
-  (    1 +5V )
-  (    2 +2.048V_REF )
-  (    3 GND )
- )
- ( /5071D7A1/5074F9CA 0603  C15 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /5071D7A1/5074F9E3 0603  C14 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /5071D7A1/507770FC 61900211121  JP6 EXT_PWR {Lib=HEADER_POL1X2}
-  (    1 GND )
-  (    2 /lasershark_power/EXT_5V )
- )
- ( /5071D7A1/50B5AF60 $noname  JP14 PWR {Lib=HEADER1X3}
-  (    1 +5V )
-  (    2 GND )
-  (    3 +3.3V )
- )
- ( /5073C5B4/5073A25B 61900311121  JP8 X {Lib=HEADER_POL1X3}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/ILDA_X- )
-  (    3 /lasershark_amplifiers/ILDA_X+ )
- )
- ( /5073C5B4/5073A26F 61900311121  JP9 Y {Lib=HEADER_POL1X3}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/ILDA_Y- )
-  (    3 /lasershark_amplifiers/ILDA_Y+ )
- )
- ( /5073C5B4/50AEFBEA 61900211121  JP10 A {Lib=HEADER_POL1X2}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/A_OUT )
- )
- ( /5073C5B4/50AEFC03 61900211121  JP11 B {Lib=HEADER_POL1X2}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/B_OUT )
- )
- ( /5073C5B4/50AF0CA9 61900211121  JP12 C {Lib=HEADER1X2}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/C_OUT )
- )
- ( /5073C5B4/50B47E0D 61900211121  JP13 INTL {Lib=HEADER1X2}
-  (    1 /lasershark_amplifiers/INTERLOCK_A_OUT )
-  (    2 /lasershark_amplifiers/INTERLOCK_B_IN )
- )
- ( /50726B4C/5074D8C4 PVZ3A501C01B00  RV1 1K {Lib=POTENTIOMETER}
-  (    1 GND )
-  (    2 N-000106 )
-  (    3 ? )
- )
- ( /50726B4C/5074D90A 0603  C19 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +12V )
- )
- ( /50726B4C/5074DB30 0603  R22 24K<1% {Lib=RES}
-  (    1 N-000096 )
-  (    2 N-000102 )
- )
- ( /50726B4C/5074DB3F 0603  R20 10K<1% {Lib=RES}
-  (    1 +2.048V_REF )
-  (    2 N-000096 )
- )
- ( /50726B4C/5074DB82 0603  R24 10K<1% {Lib=RES}
-  (    1 N-000101 )
-  (    2 N-000100 )
- )
- ( /50726B4C/5074DBCD 0603  R28 150 {Lib=RES}
-  (    1 N-000101 )
-  (    2 /lasershark_amplifiers/ILDA_X+ )
- )
- ( /50726B4C/5074DBE0 PVZ3A501C01B00  RV3 1K {Lib=POTENTIOMETER}
-  (    1 N-000102 )
-  (    2 N-000101 )
-  (    3 ? )
- )
- ( /50726B4C/5074DC48 0603  R29 150 {Lib=RES}
-  (    1 N-000107 )
-  (    2 /lasershark_amplifiers/ILDA_X- )
- )
- ( /50726B4C/5074DE60 0603  R26 10K<1% {Lib=RES}
-  (    1 N-000100 )
-  (    2 N-000107 )
- )
- ( /50726B4C/5074E0B6 0603  C20 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 -12V )
- )
- ( /50726B4C/5074E789 0603  R16 10K<1% {Lib=RES}
-  (    1 /lasershark_amplifiers/X )
-  (    2 N-000104 )
- )
- ( /50726B4C/5074E7B6 0603  R18 24K<1% {Lib=RES}
-  (    1 N-000106 )
-  (    2 N-000104 )
- )
- ( /50726B4C/5074FD38 PVZ3A501C01B00  RV2 1K {Lib=POTENTIOMETER}
-  (    1 ? )
-  (    2 N-000094 )
-  (    3 GND )
- )
- ( /50726B4C/5074FD5E 0603  R23 24K<1% {Lib=RES}
-  (    1 N-000105 )
-  (    2 N-000112 )
- )
- ( /50726B4C/5074FD64 0603  R21 10K<1% {Lib=RES}
-  (    1 +2.048V_REF )
-  (    2 N-000105 )
- )
- ( /50726B4C/5074FD73 0603  R25 10K<1% {Lib=RES}
-  (    1 N-000095 )
-  (    2 N-000092 )
- )
- ( /50726B4C/5074FD7E 0603  R30 150 {Lib=RES}
-  (    1 N-000095 )
-  (    2 /lasershark_amplifiers/ILDA_Y+ )
- )
- ( /50726B4C/5074FD84 PVZ3A501C01B00  RV4 1K {Lib=POTENTIOMETER}
-  (    1 ? )
-  (    2 N-000095 )
-  (    3 N-000112 )
- )
- ( /50726B4C/5074FD90 0603  R31 150 {Lib=RES}
-  (    1 N-000091 )
-  (    2 /lasershark_amplifiers/ILDA_Y- )
- )
- ( /50726B4C/5074FD99 0603  R27 10K<1% {Lib=RES}
-  (    1 N-000092 )
-  (    2 N-000091 )
- )
- ( /50726B4C/5074FDD0 0603  R17 10K<1% {Lib=RES}
-  (    1 /lasershark_amplifiers/Y )
-  (    2 N-000093 )
- )
- ( /50726B4C/5074FDDC 0603  R19 24K<1% {Lib=RES}
-  (    1 N-000094 )
-  (    2 N-000093 )
- )
- ( /50726B4C/50750D23 0603  R38 150 {Lib=RES}
-  (    1 N-000099 )
-  (    2 /lasershark_amplifiers/B_OUT )
- )
- ( /50726B4C/50750D90 0603  R32 1K {Lib=RES}
-  (    1 /lasershark_amplifiers/B )
-  (    2 N-000097 )
- )
- ( /50726B4C/5074E9D9 MC33074ADG  U7 MC33074ADG {Lib=MC33074ADG}
-  (    1 N-000101 )
-  (    2 N-000096 )
-  (    3 N-000104 )
-  (    4 +12V )
-  (    5 N-000093 )
-  (    6 N-000105 )
-  (    7 N-000095 )
-  (    8 N-000091 )
-  (    9 N-000092 )
-  (   10 GND )
-  (   11 -12V )
-  (   12 GND )
-  (   13 N-000100 )
-  (   14 N-000107 )
- )
- ( /50726B4C/5074EE0E 0603  C22 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 -12V )
- )
- ( /50726B4C/5074F0E1 0603  C21 0.1uF {Lib=CAP_NONPOL}
-  (    1 GND )
-  (    2 +12V )
- )
- ( /50726B4C/5074FC74 0603  R34 1K {Lib=RES}
-  (    1 GND )
-  (    2 N-000098 )
- )
- ( /50726B4C/5074FC83 0603  R36 220.703 {Lib=RES}
-  (    1 N-000098 )
-  (    2 N-000099 )
- )
- ( /50726B4C/50750DCF 0603  R39 150 {Lib=RES}
-  (    1 N-000115 )
-  (    2 /lasershark_amplifiers/A_OUT )
- )
- ( /50726B4C/50750DD6 0603  R33 1K {Lib=RES}
-  (    1 /lasershark_amplifiers/A )
-  (    2 N-000113 )
- )
- ( /50726B4C/50750E20 0603  R35 1K {Lib=RES}
-  (    1 GND )
-  (    2 N-000114 )
- )
- ( /50726B4C/50750E26 0603  R37 220.703 {Lib=RES}
-  (    1 N-000114 )
-  (    2 N-000115 )
- )
- ( /50726B4C/50B066ED MC33074ADG  U8 MC33074ADG {Lib=MC33074ADG}
-  (    1 N-000099 )
-  (    2 N-000098 )
-  (    3 N-000097 )
-  (    4 +12V )
-  (    5 N-000113 )
-  (    6 N-000114 )
-  (    7 N-000115 )
-  (    8 N-000116 )
-  (    9 N-000110 )
-  (   10 N-000103 )
-  (   11 -12V )
-  (   12 N-000109 )
-  (   13 N-000108 )
-  (   14 N-000111 )
- )
- ( /50726B4C/50B06749 0603  R47 150 {Lib=RES}
-  (    1 N-000116 )
-  (    2 /lasershark_amplifiers/INTERLOCK_A_OUT )
- )
- ( /50726B4C/50B06750 0603  R41 1K {Lib=RES}
-  (    1 /lasershark_amplifiers/INTERLOCK_A )
-  (    2 N-000103 )
- )
- ( /50726B4C/50B0675D 0603  R43 1K {Lib=RES}
-  (    1 GND )
-  (    2 N-000110 )
- )
- ( /50726B4C/50B06764 0603  R45 515.152 {Lib=RES}
-  (    1 N-000110 )
-  (    2 N-000116 )
- )
- ( /50726B4C/50B06780 0603  R46 150 {Lib=RES}
-  (    1 N-000111 )
-  (    2 /lasershark_amplifiers/C_OUT )
- )
- ( /50726B4C/50B06787 0603  R40 1K {Lib=RES}
-  (    1 /lasershark_amplifiers/C )
-  (    2 N-000109 )
- )
- ( /50726B4C/50B06794 0603  R42 1K {Lib=RES}
-  (    1 GND )
-  (    2 N-000108 )
- )
- ( /50726B4C/50B0679B 0603  R44 515.152 {Lib=RES}
-  (    1 N-000108 )
-  (    2 N-000111 )
- )
- ( /50726B4C/50B44D30 DIODE_SOD-323  D5 5.42V {Lib=ZENER}
-  (    1 GND )
-  (    2 /lasershark_amplifiers/INTERLOCK_B )
- )
- ( /50726B4C/50B4A4D1 0603  R48 150 {Lib=RES}
-  (    1 /lasershark_amplifiers/INTERLOCK_B_IN )
-  (    2 /lasershark_amplifiers/INTERLOCK_B )
- )
-)
-*
-{ Pin List by Nets
-Net 1 "" ""
- D3 1
- R7 1
-Net 2 "USB_VCC" "USB_VCC"
- FB1 1
- R2 2
- JP7 3
- C9 2
- C10 2
-Net 3 "" ""
- JP5 1
- FB1 2
- C11 2
-Net 4 "" ""
- R6 1
- D2 1
-Net 5 "" ""
- R12 2
- JP5 2
-Net 6 "+5V" "+5V"
- U6 1
- C2 2
- U3 1
- U5 1
- U1 1
- C14 2
- C1 2
- C15 2
- C16 2
- U4 1
- JP7 2
- C17 2
- JP14 1
-Net 7 "+4.096V_REF" "+4.096V_REF"
- C6 2
- C7 2
- U3 2
- U1 7
-Net 12 "" ""
- R5 1
- D1 1
-Net 13 "+3.3V" "+3.3V"
- R15 2
- R13 2
- C18 2
- JP4 1
- C8 2
- C5 2
- U2 44
- U2 8
- JP14 3
- R6 2
- R5 2
- R9 2
- Q1 3
- R7 2
- R1 2
- U5 3
- R4 2
-Net 14 "" ""
- U2 6
- C3 2
- Y1 1
-Net 15 "" ""
- Y1 2
- U2 7
- C4 2
-Net 16 "GND" "GND"
- U2 5
- D3 2
- C6 1
- C10 1
- R14 1
- JP4 9
- R42 1
- U2 41
- JP4 5
- C13 1
- D5 1
- C12 1
- R3 1
- S2 1
- C14 1
- C15 1
- U6 2
- U6 4
- C8 1
- U1 6
- U5 2
- U5 4
- C7 1
- JP4 3
- C4 1
- C3 1
- C5 1
- C17 1
- C18 1
- C1 1
- D4 2
- C16 1
- C2 1
- JP11 1
- JP10 1
- JP3 1
- JP12 1
- JP6 1
- JP2 1
- U3 3
- C21 1
- R34 1
- C22 1
- U7 10
- U4 3
- R35 1
- U7 12
- JP8 1
- S1 1
- JP4 7
- JP9 1
- JP14 2
- R43 1
- RV1 1
- C20 1
- RV2 3
- JP5 9
- JP5 8
- JP5 7
- JP5 6
- JP5 5
- C9 1
- C19 1
- JP1 1
- C11 1
-Net 17 "/lasershark_amplifiers/INTERLOCK_A" "INTERLOCK_A"
- R41 1
- U2 35
-Net 18 "/lasershark_amplifiers/C" "C"
- R40 1
- U2 34
-Net 19 "/lasershark_amplifiers/C_OUT" "C_OUT"
- JP12 2
- R46 2
-Net 20 "/lasershark_amplifiers/INTERLOCK_A_OUT" "INTERLOCK_A_OUT"
- JP13 1
- R47 2
-Net 26 "/lasershark_amplifiers/B_OUT" "B_OUT"
- JP11 2
- R38 2
-Net 27 "/lasershark_amplifiers/ILDA_X+" "ILDA_X+"
- R28 2
- JP8 3
-Net 28 "/lasershark_amplifiers/ILDA_X-" "ILDA_X-"
- JP8 2
- R29 2
-Net 29 "/lasershark_amplifiers/ILDA_Y+" "ILDA_Y+"
- R30 2
- JP9 3
-Net 30 "/lasershark_amplifiers/ILDA_Y-" "ILDA_Y-"
- R31 2
- JP9 2
-Net 31 "/lasershark_amplifiers/A_OUT" "A_OUT"
- JP10 2
- R39 2
-Net 32 "/lasershark_amplifiers/INTERLOCK_B_IN" "INTERLOCK_B_IN"
- JP13 2
- R48 1
-Net 33 "/lasershark_amplifiers/INTERLOCK_B" "INTERLOCK_B"
- D5 2
- R48 2
- U2 33
-Net 34 "" ""
- R11 2
- Q1 2
- R8 2
-Net 35 "" ""
- R8 1
- D4 1
-Net 36 "" ""
- R10 2
- R11 1
- JP5 3
-Net 40 "/SWCLK" "SWCLK"
- U2 29
- JP4 4
- R14 2
-Net 41 "/MOSI" "MOSI"
- U1 8
- JP2 2
- U2 28
-Net 42 "/lasershark_amplifiers/X" "X"
- R16 1
- U1 4
-Net 43 "/lasershark_amplifiers/Y" "Y"
- U1 5
- R17 1
-Net 44 "/lasershark_amplifiers/A" "A"
- U1 2
- R33 1
-Net 45 "/lasershark_amplifiers/B" "B"
- R32 1
- U1 3
-Net 46 "/SSEL0" "SSEL0"
- JP2 3
- U1 9
- U2 10
-Net 47 "/SCK" "SCK"
- JP2 4
- U1 10
- U2 31
-Net 48 "/DM" "DM"
- R12 1
- U2 19
-Net 49 "/RESET" "RESET"
- S2 3
- U2 3
- JP4 10
- C13 2
- R15 1
-Net 50 "/SWDIO" "SWDIO"
- U2 39
- R13 1
- JP4 2
-Net 55 "/DP" "DP"
- U2 20
- R10 1
-Net 56 "/USB_VBUS" "USB_VBUS"
- R2 1
- R3 2
- U2 14
-Net 61 "/USR1_LED" "USR1_LED"
- U2 24
- D2 2
-Net 62 "/USB_CONNECT" "USB_CONNECT"
- U2 22
- Q1 1
-Net 64 "/USB_FTOGGLE" "USB_FTOGGLE"
- S1 3
- U2 4
- C12 2
- R9 1
-Net 75 "/USR2_LED" "USR2_LED"
- U2 25
- D1 2
-Net 77 "/SCL" "SCL"
- R4 1
- JP1 3
- U2 15
-Net 78 "/SDA" "SDA"
- JP1 2
- U2 16
- R1 1
-Net 83 "/TX" "TX"
- U2 47
- JP3 5
-Net 84 "/CTS" "CTS"
- JP3 6
- U2 23
-Net 85 "/RTS" "RTS"
- JP3 2
- U2 45
-Net 86 "/RX" "RX"
- JP3 4
- U2 46
-Net 87 "+2.048V_REF" "+2.048V_REF"
- R20 1
- U4 2
- R21 1
-Net 88 "/lasershark_power/EXT_5V" "EXT_5V"
- JP6 2
- JP7 1
-Net 89 "+12V" "+12V"
- U8 4
- U7 4
- C19 2
- C21 2
- U6 5
-Net 90 "-12V" "-12V"
- U8 11
- C20 2
- U7 11
- C22 2
- U6 3
-Net 91 "" ""
- U7 8
- R27 2
- R31 1
-Net 92 "" ""
- R25 2
- U7 9
- R27 1
-Net 93 "" ""
- R17 2
- R19 2
- U7 5
-Net 94 "" ""
- R19 1
- RV2 2
-Net 95 "" ""
- R30 1
- R25 1
- RV4 2
- U7 7
-Net 96 "" ""
- U7 2
- R20 2
- R22 1
-Net 97 "" ""
- R32 2
- U8 3
-Net 98 "" ""
- R34 2
- R36 1
- U8 2
-Net 99 "" ""
- U8 1
- R38 1
- R36 2
-Net 100 "" ""
- R26 1
- R24 2
- U7 13
-Net 101 "" ""
- R24 1
- U7 1
- R28 1
- RV3 2
-Net 102 "" ""
- R22 2
- RV3 1
-Net 103 "" ""
- U8 10
- R41 2
-Net 104 "" ""
- U7 3
- R18 2
- R16 2
-Net 105 "" ""
- U7 6
- R21 2
- R23 1
-Net 106 "" ""
- RV1 2
- R18 1
-Net 107 "" ""
- R29 1
- R26 2
- U7 14
-Net 108 "" ""
- U8 13
- R44 1
- R42 2
-Net 109 "" ""
- U8 12
- R40 2
-Net 110 "" ""
- R45 1
- R43 2
- U8 9
-Net 111 "" ""
- R44 2
- R46 1
- U8 14
-Net 112 "" ""
- R23 2
- RV4 3
-Net 113 "" ""
- U8 5
- R33 2
-Net 114 "" ""
- R35 2
- R37 1
- U8 6
-Net 115 "" ""
- U8 7
- R37 2
- R39 1
-Net 116 "" ""
- R45 2
- U8 8
- R47 1
-}
-#End
+(export (version D)
+  (design
+    (source /home/nelsonjm/Desktop/lasershark_hardware/lasershark/lasershark.sch)
+    (date "Sun 10 Feb 2013 12:11:53 AM EST")
+    (tool "eeschema (2012-nov-02)-testing"))
+  (components
+    (comp (ref U2)
+      (value LPC1343)
+      (footprint LPC1343_LQFP48)
+      (fields
+        (field (name Manf) LPC1343FBD48,151))
+      (libsource (lib lasershark) (part LPC1343))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071000D))
+    (comp (ref MP1)
+      (value STANDOFF)
+      (footprint 4-40MountHole)
+      (libsource (lib lasershark) (part STANDOFF))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071005A))
+    (comp (ref MP3)
+      (value STANDOFF)
+      (footprint 4-40MountHole)
+      (libsource (lib lasershark) (part STANDOFF))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50710069))
+    (comp (ref MP2)
+      (value STANDOFF)
+      (footprint 4-40MountHole)
+      (libsource (lib lasershark) (part STANDOFF))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50710087))
+    (comp (ref MP4)
+      (value STANDOFF)
+      (footprint 4-40MountHole)
+      (libsource (lib lasershark) (part STANDOFF))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507100B4))
+    (comp (ref Y1)
+      (value 12Mhz)
+      (footprint ABLS-14.31818MHZ-B4-T)
+      (fields
+        (field (name Manf) ATS120BSM-1))
+      (libsource (lib lasershark) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071029E))
+    (comp (ref C3)
+      (value 22pF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C220J5GACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507102AD))
+    (comp (ref C4)
+      (value 22pF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C220J5GACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507102C6))
+    (comp (ref JP4)
+      (value SWD)
+      (footprint FTSH-105-01)
+      (libsource (lib lasershark) (part SWD_HEADER))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507119C5))
+    (comp (ref R14)
+      (value 10K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071267F))
+    (comp (ref R13)
+      (value 10K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071268E))
+    (comp (ref C10)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071DE91))
+    (comp (ref C9)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071DEA0))
+    (comp (ref C11)
+      (value 10nF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C103K5RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071DEAF))
+    (comp (ref FB1)
+      (value FERRITE_BEAD)
+      (footprint 0603)
+      (fields
+        (field (name Manf) MMZ1608R300AT))
+      (libsource (lib lasershark) (part FERRITE_BEAD))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071DEEB))
+    (comp (ref JP5)
+      (value 154-15410-E)
+      (footprint 154-15410-E)
+      (fields
+        (field (name Manf) USB-M26FTR))
+      (libsource (lib lasershark) (part 154-15410-E))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071E073))
+    (comp (ref R15)
+      (value 10K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071E469))
+    (comp (ref C13)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071E66C))
+    (comp (ref D3)
+      (value PWR)
+      (footprint LED_0603)
+      (fields
+        (field (name Manf) "LG Q971-KN-1"))
+      (libsource (lib lasershark) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071EEF7))
+    (comp (ref R6)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5071EF06))
+    (comp (ref C6)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50723159))
+    (comp (ref C2)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507240B7))
+    (comp (ref C1)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507240BD))
+    (comp (ref U1)
+      (value DAC124S085)
+      (footprint DAC124S085)
+      (fields
+        (field (name Manf) DAC124S085CIMM/NOPB))
+      (libsource (lib lasershark) (part DAC124S085))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5072499A))
+    (comp (ref C7)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507258D7))
+    (comp (ref R7)
+      (value 360)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF3600V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5073049B))
+    (comp (ref D2)
+      (value USR1)
+      (footprint LED_0603)
+      (fields
+        (field (name Manf) "LS Q976-NR-1"))
+      (libsource (lib lasershark) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5073058A))
+    (comp (ref R1)
+      (value NP)
+      (footprint 0603)
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50730882))
+    (comp (ref R4)
+      (value NP)
+      (footprint 0603)
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50730A29))
+    (comp (ref R12)
+      (value 33)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT33R0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50730CCD))
+    (comp (ref R10)
+      (value 33)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT33R0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50730F98))
+    (comp (ref C5)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50732C6F))
+    (comp (ref C8)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50732D5B))
+    (comp (ref R8)
+      (value 360)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF3600V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50736377))
+    (comp (ref D4)
+      (value USB)
+      (footprint LED_0603)
+      (fields
+        (field (name Manf) "LG Q971-KN-1"))
+      (libsource (lib lasershark) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50736390))
+    (comp (ref R11)
+      (value 1.5K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT1K50))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50736BB6))
+    (comp (ref R2)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507389BA))
+    (comp (ref R3)
+      (value 10K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507389C9))
+    (comp (ref R9)
+      (value 10K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50738E28))
+    (comp (ref C12)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50738E2E))
+    (comp (ref D1)
+      (value USR2)
+      (footprint LED_0603)
+      (fields
+        (field (name Manf) "LY Q976-P1S2-36"))
+      (libsource (lib lasershark) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5073A93B))
+    (comp (ref S2)
+      (value RST)
+      (footprint 3-1437565-0)
+      (fields
+        (field (name Manf) 3-1437565-0))
+      (libsource (lib lasershark) (part BUTTON_NO_X4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50777695))
+    (comp (ref S1)
+      (value PGM)
+      (footprint 3-1437565-0)
+      (fields
+        (field (name Manf) 3-1437565-0))
+      (libsource (lib lasershark) (part BUTTON_NO_X4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 507782AE))
+    (comp (ref R5)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50779A90))
+    (comp (ref G1)
+      (value LASERSHARK_LOGO)
+      (footprint LASERSHARK_LOGO)
+      (libsource (lib lasershark_logo) (part LASERSHARK_LOGO))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5079E37D))
+    (comp (ref Q1)
+      (value BSS84)
+      (footprint BSS84_SOT23_3)
+      (fields
+        (field (name Manf) BSS84))
+      (libsource (lib lasershark) (part MOSFET_P-CHANNEL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50736195))
+    (comp (ref JP3)
+      (value UART)
+      (footprint HEADER_2_54X6)
+      (libsource (lib lasershark) (part HEADER1X6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50B1A7FA))
+    (comp (ref JP2)
+      (value SPI)
+      (footprint HEADER_2_54X4)
+      (libsource (lib lasershark) (part HEADER1X4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50B302ED))
+    (comp (ref JP1)
+      (value I2C)
+      (footprint HEADER_2_54X3)
+      (libsource (lib lasershark) (part HEADER1X3))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 50B30CA1))
+    (comp (ref R49)
+      (value 360)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF3600V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 51174C3A))
+    (comp (ref R50)
+      (value 360)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF3600V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 51172F5D))
+    (comp (ref C17)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5071D872))
+    (comp (ref C18)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5071D89A))
+    (comp (ref U5)
+      (value TC1262)
+      (footprint TC1262-3.3VDBTR)
+      (fields
+        (field (name Manf) TC1262-3.3VDBTR))
+      (libsource (lib lasershark) (part TC1262))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5071DA9C))
+    (comp (ref U6)
+      (value RB-0512D)
+      (footprint RB-0512D)
+      (fields
+        (field (name Manf) RB-0512D))
+      (libsource (lib lasershark) (part RB-0512D))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 50726EE7))
+    (comp (ref C16)
+      (value 10uF)
+      (footprint 1206)
+      (fields
+        (field (name Manf) TMK316F106ZL-T))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 50726F19))
+    (comp (ref JP7)
+      (value PWR_SEL)
+      (footprint HEADER_2_54X3)
+      (libsource (lib lasershark) (part HEADER1X3))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 50732F2C))
+    (comp (ref U3)
+      (value MAX6104EUR+T)
+      (footprint MAX6104EUR+T)
+      (fields
+        (field (name Manf) MAX6104EUR+T))
+      (libsource (lib lasershark) (part MAX6104EUR+T))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5074F948))
+    (comp (ref U4)
+      (value MAX6106EUR+T)
+      (footprint MAX6106EUR+T)
+      (fields
+        (field (name Manf) MAX6106EUR+T))
+      (libsource (lib lasershark) (part MAX6106EUR+T))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5074F957))
+    (comp (ref C15)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5074F9CA))
+    (comp (ref C14)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 5074F9E3))
+    (comp (ref JP6)
+      (value EXT_PWR)
+      (footprint 61900211121)
+      (fields
+        (field (name Manf) 61900211121))
+      (libsource (lib lasershark) (part HEADER_POL1X2))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 507770FC))
+    (comp (ref JP14)
+      (value PWR)
+      (libsource (lib lasershark) (part HEADER1X3))
+      (sheetpath (names /lasershark_power/) (tstamps /5071D7A1/))
+      (tstamp 50B5AF60))
+    (comp (ref JP8)
+      (value X)
+      (footprint 61900311121)
+      (fields
+        (field (name Manf) 61900311121))
+      (libsource (lib lasershark) (part HEADER_POL1X3))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 5073A25B))
+    (comp (ref JP9)
+      (value Y)
+      (footprint 61900311121)
+      (fields
+        (field (name Manf) 61900311121))
+      (libsource (lib lasershark) (part HEADER_POL1X3))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 5073A26F))
+    (comp (ref JP10)
+      (value A)
+      (footprint 61900211121)
+      (libsource (lib lasershark) (part HEADER_POL1X2))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 50AEFBEA))
+    (comp (ref JP11)
+      (value B)
+      (footprint 61900211121)
+      (libsource (lib lasershark) (part HEADER_POL1X2))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 50AEFC03))
+    (comp (ref JP12)
+      (value C)
+      (footprint 61900211121)
+      (libsource (lib lasershark) (part HEADER1X2))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 50AF0CA9))
+    (comp (ref JP13)
+      (value INTL)
+      (footprint 61900211121)
+      (libsource (lib lasershark) (part HEADER1X2))
+      (sheetpath (names /lasershark_connections/) (tstamps /5073C5B4/))
+      (tstamp 50B47E0D))
+    (comp (ref RV1)
+      (value 1K)
+      (footprint PVZ3A501C01B00)
+      (fields
+        (field (name Manf) PVZ3G102C01R00))
+      (libsource (lib lasershark) (part POTENTIOMETER))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074D8C4))
+    (comp (ref C19)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074D90A))
+    (comp (ref R22)
+      (value 24K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF2402V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DB30))
+    (comp (ref R20)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DB3F))
+    (comp (ref R24)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DB82))
+    (comp (ref R28)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DBCD))
+    (comp (ref RV3)
+      (value 1K)
+      (footprint PVZ3A501C01B00)
+      (fields
+        (field (name Manf) PVZ3G102C01R00))
+      (libsource (lib lasershark) (part POTENTIOMETER))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DBE0))
+    (comp (ref R29)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DC48))
+    (comp (ref R26)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074DE60))
+    (comp (ref C20)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074E0B6))
+    (comp (ref R16)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074E789))
+    (comp (ref R18)
+      (value 24K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF2402V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074E7B6))
+    (comp (ref RV2)
+      (value 1K)
+      (footprint PVZ3A501C01B00)
+      (fields
+        (field (name Manf) PVZ3G102C01R00))
+      (libsource (lib lasershark) (part POTENTIOMETER))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD38))
+    (comp (ref R23)
+      (value 24K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF2402V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD5E))
+    (comp (ref R21)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD64))
+    (comp (ref R25)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD73))
+    (comp (ref R30)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD7E))
+    (comp (ref RV4)
+      (value 1K)
+      (footprint PVZ3A501C01B00)
+      (fields
+        (field (name Manf) PVZ3G102C01R00))
+      (libsource (lib lasershark) (part POTENTIOMETER))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD84))
+    (comp (ref R31)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD90))
+    (comp (ref R27)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FD99))
+    (comp (ref R17)
+      (value 10K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD10K0))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FDD0))
+    (comp (ref R19)
+      (value 24K<1%)
+      (footprint 0603)
+      (fields
+        (field (name Manf) ERJ-3EKF2402V))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FDDC))
+    (comp (ref R38)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750D23))
+    (comp (ref R32)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750D90))
+    (comp (ref U7)
+      (value MC33074ADG)
+      (footprint MC33074ADG)
+      (fields
+        (field (name Manf) MC33074ADG))
+      (libsource (lib lasershark) (part MC33074ADG))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074E9D9))
+    (comp (ref C22)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074EE0E))
+    (comp (ref C21)
+      (value 0.1uF)
+      (footprint 0603)
+      (fields
+        (field (name Manf) C0603C104K3RACTU))
+      (libsource (lib lasershark) (part CAP_NONPOL))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074F0E1))
+    (comp (ref R34)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FC74))
+    (comp (ref R36)
+      (value 220.703)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT220R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 5074FC83))
+    (comp (ref R39)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750DCF))
+    (comp (ref R33)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750DD6))
+    (comp (ref R35)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750E20))
+    (comp (ref R37)
+      (value 220.703)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT220R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50750E26))
+    (comp (ref U8)
+      (value MC33074ADG)
+      (footprint MC33074ADG)
+      (libsource (lib lasershark) (part MC33074ADG))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B066ED))
+    (comp (ref R47)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06749))
+    (comp (ref R41)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06750))
+    (comp (ref R43)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B0675D))
+    (comp (ref R45)
+      (value 515.152)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT511R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06764))
+    (comp (ref R46)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06780))
+    (comp (ref R40)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06787))
+    (comp (ref R42)
+      (value 1K)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD1K00))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B06794))
+    (comp (ref R44)
+      (value 515.152)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RMCF0603FT511R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B0679B))
+    (comp (ref D5)
+      (value 5.42V)
+      (footprint DIODE_SOD-323)
+      (fields
+        (field (name Manf) DDZ5V6ASF-7))
+      (libsource (lib lasershark) (part ZENER))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B44D30))
+    (comp (ref R48)
+      (value 150)
+      (footprint 0603)
+      (fields
+        (field (name Manf) RNCP0603FTD150R))
+      (libsource (lib lasershark) (part RES))
+      (sheetpath (names /lasershark_amplifiers/) (tstamps /50726B4C/))
+      (tstamp 50B4A4D1)))
+  (libparts
+    (libpart (lib lasershark) (part 154-15410-E)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) 154-15410-E)
+        (field (name Manf) 154-15410-E))
+      (pins
+        (pin (num 1) (name VBUS) (type input))
+        (pin (num 2) (name DATA-) (type input))
+        (pin (num 3) (name DATA+) (type input))
+        (pin (num 4) (name ID) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name GND1) (type input))
+        (pin (num 7) (name GND2) (type input))
+        (pin (num 8) (name GND3) (type input))
+        (pin (num 9) (name GND4) (type input))))
+    (libpart (lib lasershark) (part BUTTON_NO_X4)
+      (fields
+        (field (name Reference) S)
+        (field (name Value) BUTTON_NO_X4))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))))
+    (libpart (lib lasershark) (part CAP_NONPOL)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CAP_NONPOL))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib lasershark) (part CRYSTAL)
+      (fields
+        (field (name Reference) Y)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib lasershark) (part DAC124S085)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) DAC124S085))
+      (pins
+        (pin (num 1) (name VA) (type input))
+        (pin (num 2) (name VOUTA) (type input))
+        (pin (num 3) (name VOUTB) (type input))
+        (pin (num 4) (name VOUTC) (type input))
+        (pin (num 5) (name VOUTD) (type input))
+        (pin (num 6) (name GND) (type input))
+        (pin (num 7) (name VREFIN) (type input))
+        (pin (num 8) (name DIN) (type input))
+        (pin (num 9) (name SYNC) (type input))
+        (pin (num 10) (name SCLK) (type input))))
+    (libpart (lib lasershark) (part FERRITE_BEAD)
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FERRITE_BEAD))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib lasershark) (part HEADER1X2)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER1X2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib lasershark) (part HEADER1X3)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER1X3))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type input))))
+    (libpart (lib lasershark) (part HEADER1X4)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER1X4))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))))
+    (libpart (lib lasershark) (part HEADER1X6)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER1X6))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input))
+        (pin (num 5) (name ~) (type input))
+        (pin (num 6) (name ~) (type input))))
+    (libpart (lib lasershark) (part HEADER_POL1X2)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER_POL1X2))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib lasershark) (part HEADER_POL1X3)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) HEADER_POL1X3))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type input))))
+    (libpart (lib lasershark) (part LED)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type input))
+        (pin (num 2) (name C) (type input))))
+    (libpart (lib lasershark) (part LPC1343)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LPC1343))
+      (pins
+        (pin (num 1) (name PIO2_6) (type input))
+        (pin (num 2) (name PIO2_0/DTR) (type input))
+        (pin (num 3) (name RESET/PIO0_0) (type input))
+        (pin (num 4) (name PIO0_1/CLKOUT/CT32B0_MAT2/USB_FTOGGLE) (type input))
+        (pin (num 5) (name VSS) (type input))
+        (pin (num 6) (name XTALIN) (type input))
+        (pin (num 7) (name XTALOUT) (type input))
+        (pin (num 8) (name VDD) (type input))
+        (pin (num 9) (name PIO1_8/CT16B1_CAP0) (type input))
+        (pin (num 10) (name PIO0_2/SSEL0/CT16B0_CAP0) (type input))
+        (pin (num 11) (name PIO2_7) (type input))
+        (pin (num 12) (name PIO2_8) (type input))
+        (pin (num 13) (name PIO2_1/DSR) (type input))
+        (pin (num 14) (name PIO0_3/USB_VBUS) (type input))
+        (pin (num 15) (name PIO0_4/SCL) (type input))
+        (pin (num 16) (name PIO0_5/SDA) (type input))
+        (pin (num 17) (name PIO1_9/CT16B1_MAT0) (type input))
+        (pin (num 18) (name PIO2_4) (type input))
+        (pin (num 19) (name USB_DM) (type input))
+        (pin (num 20) (name USB_DP) (type input))
+        (pin (num 21) (name PIO2_5) (type input))
+        (pin (num 22) (name PIO0_6/USB_CONNECT/SCK) (type input))
+        (pin (num 23) (name PIO0_7/CTS) (type input))
+        (pin (num 24) (name PIO2_9) (type input))
+        (pin (num 25) (name PIO2_10) (type input))
+        (pin (num 26) (name PIO2_2/DCD) (type input))
+        (pin (num 27) (name PIO0_8/MISO0/CT16B0_MAT0) (type input))
+        (pin (num 28) (name PIO0_9/MOSI0/CT16B0_MAT1/SWO) (type input))
+        (pin (num 29) (name SWCLK/PIO0_10/SCK0/CT16B0_MAT2) (type input))
+        (pin (num 30) (name PIO1_10/AD6/CT16B1_MAT1) (type input))
+        (pin (num 31) (name PIO2_11/SCK0) (type input))
+        (pin (num 32) (name R/PIO0_11/AD0/CT32B0_MAT3) (type input))
+        (pin (num 33) (name R/PIO1_0/AD1/CT32B1_CAP0) (type input))
+        (pin (num 34) (name R/PIO1_1/AD2/CT32B1_MAT0) (type input))
+        (pin (num 35) (name R/PIO1_2/AD3/CT32B1_MAT1) (type input))
+        (pin (num 36) (name PIO3_0) (type input))
+        (pin (num 37) (name PIO3_1) (type input))
+        (pin (num 38) (name PIO2_3/RI) (type input))
+        (pin (num 39) (name SWDIO/PIO1_3/AD4/CT32B1_MAT2) (type input))
+        (pin (num 40) (name PIO1_4/AD5/CT32B1_MAT3/WAKEUP) (type input))
+        (pin (num 41) (name VSS) (type input))
+        (pin (num 42) (name PIO1_11/AD7) (type input))
+        (pin (num 43) (name PIO3_2) (type input))
+        (pin (num 44) (name VDD) (type input))
+        (pin (num 45) (name PIO1_5/RTS/CT32B0_CAP0) (type input))
+        (pin (num 46) (name PIO1_6/RXD/CT32B0_MAT0) (type input))
+        (pin (num 47) (name PIO1_7/TXD/CT32B0_MAT1) (type input))
+        (pin (num 48) (name PIO3_3) (type input))))
+    (libpart (lib lasershark) (part MAX6104EUR+T)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX6104EUR+T))
+      (pins
+        (pin (num 1) (name IN) (type input))
+        (pin (num 2) (name OUT) (type input))
+        (pin (num 3) (name GND) (type input))))
+    (libpart (lib lasershark) (part MAX6106EUR+T)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MAX6106EUR+T))
+      (pins
+        (pin (num 1) (name IN) (type input))
+        (pin (num 2) (name OUT) (type input))
+        (pin (num 3) (name GND) (type input))))
+    (libpart (lib lasershark) (part MC33074ADG)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MC33074ADG))
+      (pins
+        (pin (num 1) (name 1OUT) (type input))
+        (pin (num 2) (name 1IN-) (type input))
+        (pin (num 3) (name 1IN+) (type input))
+        (pin (num 4) (name VCC+) (type input))
+        (pin (num 5) (name 2IN+) (type input))
+        (pin (num 6) (name 2IN-) (type input))
+        (pin (num 7) (name 2OUT) (type input))
+        (pin (num 8) (name 3OUT) (type input))
+        (pin (num 9) (name 3IN-) (type input))
+        (pin (num 10) (name 3IN+) (type input))
+        (pin (num 11) (name VCC-) (type input))
+        (pin (num 12) (name 4IN+) (type input))
+        (pin (num 13) (name 4IN-) (type input))
+        (pin (num 14) (name 4OUT) (type input))))
+    (libpart (lib lasershark) (part MOSFET_P-CHANNEL)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOSFET_P-CHANNEL))
+      (pins
+        (pin (num 1) (name GATE) (type input))
+        (pin (num 2) (name Drain) (type input))
+        (pin (num 3) (name Source) (type input))))
+    (libpart (lib lasershark) (part POTENTIOMETER)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POTENTIOMETER))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib lasershark) (part RB-0512D)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) RB-0512D))
+      (pins
+        (pin (num 1) (name +VIN) (type input))
+        (pin (num 2) (name -VIN) (type input))
+        (pin (num 3) (name -VOUT) (type input))
+        (pin (num 4) (name COM) (type input))
+        (pin (num 5) (name +VOUT) (type input))))
+    (libpart (lib lasershark) (part RES)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) RES))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib lasershark) (part STANDOFF)
+      (fields
+        (field (name Reference) MP)
+        (field (name Value) STANDOFF))
+      (pins
+        (pin (num 1) (name ~) (type input))))
+    (libpart (lib lasershark) (part SWD_HEADER)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) SWD_HEADER))
+      (pins
+        (pin (num 1) (name VCC) (type input))
+        (pin (num 2) (name SWDIO/TMS) (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name SWDCLK/TCK) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name SWO/TDO) (type input))
+        (pin (num 7) (name KEY) (type input))
+        (pin (num 8) (name NC/TDI) (type input))
+        (pin (num 9) (name GNDDetect) (type input))
+        (pin (num 10) (name nRESET) (type input))))
+    (libpart (lib lasershark) (part TC1262)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TC1262))
+      (pins
+        (pin (num 1) (name VIN) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name VOUT) (type input))
+        (pin (num 4) (name GND_TAB) (type input))))
+    (libpart (lib lasershark) (part ZENER)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) ZENER))
+      (pins
+        (pin (num 1) (name A) (type input))
+        (pin (num 2) (name C) (type input))))
+    (libpart (lib lasershark_logo) (part LASERSHARK_LOGO)
+      (fields
+        (field (name Reference) G)
+        (field (name Value) LASERSHARK_LOGO))))
+  (libraries
+    (library (logical lasershark)
+      (uri ../lasershark.lib))
+    (library (logical lasershark_logo)
+      (uri ../lasershark_logo.lib)))
+  (nets
+    (net (code 1) (name "")
+      (node (ref D3) (pin 1))
+      (node (ref R7) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref C11) (pin 2))
+      (node (ref FB1) (pin 2))
+      (node (ref JP5) (pin 1)))
+    (net (code 3) (name "")
+      (node (ref R12) (pin 2))
+      (node (ref JP5) (pin 2)))
+    (net (code 4) (name "")
+      (node (ref R6) (pin 1))
+      (node (ref D2) (pin 1)))
+    (net (code 5) (name +5V)
+      (node (ref U3) (pin 1))
+      (node (ref U4) (pin 1))
+      (node (ref JP14) (pin 1))
+      (node (ref C16) (pin 2))
+      (node (ref JP7) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref C1) (pin 2))
+      (node (ref C17) (pin 2))
+      (node (ref U6) (pin 1))
+      (node (ref U5) (pin 1))
+      (node (ref C15) (pin 2))
+      (node (ref U1) (pin 1))
+      (node (ref C14) (pin 2)))
+    (net (code 6) (name +4.096V_REF)
+      (node (ref U3) (pin 2))
+      (node (ref C7) (pin 2))
+      (node (ref U1) (pin 7))
+      (node (ref C6) (pin 2)))
+    (net (code 7) (name "")
+      (node (ref S1) (pin 4)))
+    (net (code 8) (name "")
+      (node (ref R5) (pin 1))
+      (node (ref D1) (pin 1)))
+    (net (code 9) (name "")
+      (node (ref S1) (pin 2)))
+    (net (code 10) (name +3.3V)
+      (node (ref U2) (pin 8))
+      (node (ref JP4) (pin 1))
+      (node (ref R9) (pin 2))
+      (node (ref C18) (pin 2))
+      (node (ref R6) (pin 2))
+      (node (ref R7) (pin 2))
+      (node (ref U5) (pin 3))
+      (node (ref U2) (pin 44))
+      (node (ref R4) (pin 2))
+      (node (ref C8) (pin 2))
+      (node (ref R13) (pin 2))
+      (node (ref Q1) (pin 3))
+      (node (ref JP14) (pin 3))
+      (node (ref R1) (pin 2))
+      (node (ref R15) (pin 2))
+      (node (ref C5) (pin 2))
+      (node (ref R5) (pin 2)))
+    (net (code 11) (name USB_VCC)
+      (node (ref JP7) (pin 3))
+      (node (ref R2) (pin 2))
+      (node (ref FB1) (pin 1))
+      (node (ref C10) (pin 2))
+      (node (ref C9) (pin 2)))
+    (net (code 12) (name "")
+      (node (ref U2) (pin 6))
+      (node (ref Y1) (pin 1))
+      (node (ref C3) (pin 2)))
+    (net (code 13) (name "")
+      (node (ref U2) (pin 7))
+      (node (ref C4) (pin 2))
+      (node (ref Y1) (pin 2)))
+    (net (code 14) (name "")
+      (node (ref JP3) (pin 3)))
+    (net (code 15) (name GND)
+      (node (ref C18) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref C12) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref C11) (pin 1))
+      (node (ref JP5) (pin 9))
+      (node (ref JP5) (pin 8))
+      (node (ref JP5) (pin 7))
+      (node (ref JP5) (pin 6))
+      (node (ref JP5) (pin 5))
+      (node (ref C16) (pin 1))
+      (node (ref C5) (pin 1))
+      (node (ref R14) (pin 1))
+      (node (ref C9) (pin 1))
+      (node (ref C10) (pin 1))
+      (node (ref C6) (pin 1))
+      (node (ref JP4) (pin 9))
+      (node (ref JP4) (pin 5))
+      (node (ref C15) (pin 1))
+      (node (ref JP4) (pin 3))
+      (node (ref S2) (pin 1))
+      (node (ref R3) (pin 1))
+      (node (ref U3) (pin 3))
+      (node (ref U4) (pin 3))
+      (node (ref D4) (pin 2))
+      (node (ref JP14) (pin 2))
+      (node (ref JP6) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref U6) (pin 4))
+      (node (ref U2) (pin 41))
+      (node (ref D3) (pin 2))
+      (node (ref U6) (pin 2))
+      (node (ref JP4) (pin 7))
+      (node (ref C17) (pin 1))
+      (node (ref C8) (pin 1))
+      (node (ref C13) (pin 1))
+      (node (ref U2) (pin 5))
+      (node (ref C4) (pin 1))
+      (node (ref U5) (pin 2))
+      (node (ref U5) (pin 4))
+      (node (ref S1) (pin 1))
+      (node (ref C14) (pin 1))
+      (node (ref U7) (pin 10))
+      (node (ref R35) (pin 1))
+      (node (ref U7) (pin 12))
+      (node (ref JP11) (pin 1))
+      (node (ref JP10) (pin 1))
+      (node (ref RV1) (pin 1))
+      (node (ref C19) (pin 1))
+      (node (ref JP2) (pin 1))
+      (node (ref C21) (pin 1))
+      (node (ref R34) (pin 1))
+      (node (ref C22) (pin 1))
+      (node (ref JP12) (pin 1))
+      (node (ref JP8) (pin 1))
+      (node (ref C7) (pin 1))
+      (node (ref U1) (pin 6))
+      (node (ref JP9) (pin 1))
+      (node (ref R42) (pin 1))
+      (node (ref D5) (pin 1))
+      (node (ref R43) (pin 1))
+      (node (ref JP1) (pin 1))
+      (node (ref JP3) (pin 1))
+      (node (ref RV2) (pin 3))
+      (node (ref R49) (pin 1))
+      (node (ref R50) (pin 1))
+      (node (ref C20) (pin 1)))
+    (net (code 16) (name /lasershark_amplifiers/C_OUT)
+      (node (ref R46) (pin 2))
+      (node (ref JP12) (pin 2)))
+    (net (code 17) (name /lasershark_amplifiers/INTERLOCK_A_OUT)
+      (node (ref JP13) (pin 1))
+      (node (ref R47) (pin 2)))
+    (net (code 22) (name /lasershark_amplifiers/INTERLOCK_B_IN)
+      (node (ref JP13) (pin 2))
+      (node (ref R48) (pin 1)))
+    (net (code 23) (name /lasershark_amplifiers/INTERLOCK_B)
+      (node (ref D5) (pin 2))
+      (node (ref U2) (pin 33))
+      (node (ref R48) (pin 2)))
+    (net (code 24) (name /lasershark_amplifiers/INTERLOCK_A)
+      (node (ref U2) (pin 35))
+      (node (ref R50) (pin 2))
+      (node (ref R41) (pin 1)))
+    (net (code 25) (name /lasershark_amplifiers/C)
+      (node (ref U2) (pin 34))
+      (node (ref R40) (pin 1))
+      (node (ref R49) (pin 2)))
+    (net (code 26) (name /lasershark_amplifiers/ILDA_X+)
+      (node (ref JP8) (pin 3))
+      (node (ref R28) (pin 2)))
+    (net (code 27) (name /lasershark_amplifiers/ILDA_X-)
+      (node (ref R29) (pin 2))
+      (node (ref JP8) (pin 2)))
+    (net (code 28) (name /lasershark_amplifiers/ILDA_Y+)
+      (node (ref R30) (pin 2))
+      (node (ref JP9) (pin 3)))
+    (net (code 29) (name /lasershark_amplifiers/ILDA_Y-)
+      (node (ref R31) (pin 2))
+      (node (ref JP9) (pin 2)))
+    (net (code 30) (name /lasershark_amplifiers/A_OUT)
+      (node (ref JP10) (pin 2))
+      (node (ref R39) (pin 2)))
+    (net (code 31) (name /lasershark_amplifiers/B_OUT)
+      (node (ref JP11) (pin 2))
+      (node (ref R38) (pin 2)))
+    (net (code 32) (name "")
+      (node (ref R8) (pin 2))
+      (node (ref R11) (pin 2))
+      (node (ref Q1) (pin 2)))
+    (net (code 33) (name "")
+      (node (ref R8) (pin 1))
+      (node (ref D4) (pin 1)))
+    (net (code 34) (name "")
+      (node (ref R10) (pin 2))
+      (node (ref JP5) (pin 3))
+      (node (ref R11) (pin 1)))
+    (net (code 35) (name "")
+      (node (ref JP5) (pin 4)))
+    (net (code 36) (name /DM)
+      (node (ref R12) (pin 1))
+      (node (ref U2) (pin 19)))
+    (net (code 37) (name "")
+      (node (ref JP4) (pin 8)))
+    (net (code 38) (name /SWCLK)
+      (node (ref U2) (pin 29))
+      (node (ref R14) (pin 2))
+      (node (ref JP4) (pin 4)))
+    (net (code 39) (name /MOSI)
+      (node (ref U2) (pin 28))
+      (node (ref U1) (pin 8))
+      (node (ref JP2) (pin 2)))
+    (net (code 40) (name "")
+      (node (ref JP4) (pin 6)))
+    (net (code 41) (name /lasershark_amplifiers/X)
+      (node (ref R16) (pin 1))
+      (node (ref U1) (pin 4)))
+    (net (code 42) (name /lasershark_amplifiers/Y)
+      (node (ref R17) (pin 1))
+      (node (ref U1) (pin 5)))
+    (net (code 43) (name /lasershark_amplifiers/A)
+      (node (ref U1) (pin 2))
+      (node (ref R33) (pin 1)))
+    (net (code 44) (name /lasershark_amplifiers/B)
+      (node (ref U1) (pin 3))
+      (node (ref R32) (pin 1)))
+    (net (code 45) (name /SSEL0)
+      (node (ref JP2) (pin 3))
+      (node (ref U2) (pin 10))
+      (node (ref U1) (pin 9)))
+    (net (code 46) (name /SCK)
+      (node (ref U1) (pin 10))
+      (node (ref JP2) (pin 4))
+      (node (ref U2) (pin 31)))
+    (net (code 47) (name /RESET)
+      (node (ref S2) (pin 3))
+      (node (ref U2) (pin 3))
+      (node (ref JP4) (pin 10))
+      (node (ref C13) (pin 2))
+      (node (ref R15) (pin 1)))
+    (net (code 48) (name /SWDIO)
+      (node (ref U2) (pin 39))
+      (node (ref JP4) (pin 2))
+      (node (ref R13) (pin 1)))
+    (net (code 49) (name "")
+      (node (ref MP3) (pin 1)))
+    (net (code 50) (name "")
+      (node (ref MP1) (pin 1)))
+    (net (code 51) (name "")
+      (node (ref MP2) (pin 1)))
+    (net (code 52) (name "")
+      (node (ref MP4) (pin 1)))
+    (net (code 53) (name /DP)
+      (node (ref U2) (pin 20))
+      (node (ref R10) (pin 1)))
+    (net (code 54) (name /PIO2_5)
+      (node (ref U2) (pin 21)))
+    (net (code 55) (name /USR1_LED)
+      (node (ref U2) (pin 24))
+      (node (ref D2) (pin 2)))
+    (net (code 56) (name /USB_CONNECT)
+      (node (ref Q1) (pin 1))
+      (node (ref U2) (pin 22)))
+    (net (code 57) (name /USB_VBUS)
+      (node (ref R3) (pin 2))
+      (node (ref R2) (pin 1))
+      (node (ref U2) (pin 14)))
+    (net (code 58) (name /USB_FTOGGLE)
+      (node (ref C12) (pin 2))
+      (node (ref U2) (pin 4))
+      (node (ref R9) (pin 1))
+      (node (ref S1) (pin 3)))
+    (net (code 59) (name /PIO2_4)
+      (node (ref U2) (pin 18)))
+    (net (code 60) (name /PIO1_8)
+      (node (ref U2) (pin 9)))
+    (net (code 61) (name /PIO1_11)
+      (node (ref U2) (pin 42)))
+    (net (code 62) (name /PIO3_2)
+      (node (ref U2) (pin 43)))
+    (net (code 63) (name /PIO3_3)
+      (node (ref U2) (pin 48)))
+    (net (code 64) (name /PIO1_4)
+      (node (ref U2) (pin 40)))
+    (net (code 65) (name /PIO2_6)
+      (node (ref U2) (pin 1)))
+    (net (code 66) (name /PIO2_0)
+      (node (ref U2) (pin 2)))
+    (net (code 67) (name /PIO2_7)
+      (node (ref U2) (pin 11)))
+    (net (code 68) (name /PIO2_8)
+      (node (ref U2) (pin 12)))
+    (net (code 69) (name /PIO2_1)
+      (node (ref U2) (pin 13)))
+    (net (code 70) (name /PIO1_9)
+      (node (ref U2) (pin 17)))
+    (net (code 71) (name "")
+      (node (ref S2) (pin 2)))
+    (net (code 72) (name "")
+      (node (ref S2) (pin 4)))
+    (net (code 73) (name /USR2_LED)
+      (node (ref U2) (pin 25))
+      (node (ref D1) (pin 2)))
+    (net (code 74) (name /SDA)
+      (node (ref JP1) (pin 2))
+      (node (ref R1) (pin 1))
+      (node (ref U2) (pin 16)))
+    (net (code 75) (name /SCL)
+      (node (ref U2) (pin 15))
+      (node (ref JP1) (pin 3))
+      (node (ref R4) (pin 1)))
+    (net (code 76) (name /PIO0_8)
+      (node (ref U2) (pin 27)))
+    (net (code 77) (name /PIO2_2)
+      (node (ref U2) (pin 26)))
+    (net (code 78) (name /PIO1_10)
+      (node (ref U2) (pin 30)))
+    (net (code 79) (name /PIO0_11)
+      (node (ref U2) (pin 32)))
+    (net (code 80) (name /PIO3_0)
+      (node (ref U2) (pin 36)))
+    (net (code 81) (name /PIO3_1)
+      (node (ref U2) (pin 37)))
+    (net (code 82) (name /PIO2_3)
+      (node (ref U2) (pin 38)))
+    (net (code 83) (name /CTS)
+      (node (ref JP3) (pin 6))
+      (node (ref U2) (pin 23)))
+    (net (code 84) (name /RTS)
+      (node (ref JP3) (pin 2))
+      (node (ref U2) (pin 45)))
+    (net (code 85) (name /TX)
+      (node (ref JP3) (pin 5))
+      (node (ref U2) (pin 47)))
+    (net (code 86) (name /RX)
+      (node (ref U2) (pin 46))
+      (node (ref JP3) (pin 4)))
+    (net (code 87) (name +2.048V_REF)
+      (node (ref U4) (pin 2))
+      (node (ref R21) (pin 1))
+      (node (ref R20) (pin 1)))
+    (net (code 88) (name /lasershark_power/EXT_5V)
+      (node (ref JP7) (pin 1))
+      (node (ref JP6) (pin 2)))
+    (net (code 89) (name +12V)
+      (node (ref U6) (pin 5))
+      (node (ref C21) (pin 2))
+      (node (ref U8) (pin 4))
+      (node (ref C19) (pin 2))
+      (node (ref U7) (pin 4)))
+    (net (code 90) (name -12V)
+      (node (ref C22) (pin 2))
+      (node (ref U7) (pin 11))
+      (node (ref U6) (pin 3))
+      (node (ref U8) (pin 11))
+      (node (ref C20) (pin 2)))
+    (net (code 91) (name "")
+      (node (ref R27) (pin 2))
+      (node (ref U7) (pin 8))
+      (node (ref R31) (pin 1)))
+    (net (code 92) (name "")
+      (node (ref R25) (pin 2))
+      (node (ref U7) (pin 9))
+      (node (ref R27) (pin 1)))
+    (net (code 93) (name "")
+      (node (ref U7) (pin 5))
+      (node (ref R17) (pin 2))
+      (node (ref R19) (pin 2)))
+    (net (code 94) (name "")
+      (node (ref R19) (pin 1))
+      (node (ref RV2) (pin 2)))
+    (net (code 95) (name "")
+      (node (ref R25) (pin 1))
+      (node (ref R30) (pin 1))
+      (node (ref RV4) (pin 2))
+      (node (ref U7) (pin 7)))
+    (net (code 96) (name "")
+      (node (ref U7) (pin 2))
+      (node (ref R20) (pin 2))
+      (node (ref R22) (pin 1)))
+    (net (code 97) (name "")
+      (node (ref U8) (pin 3))
+      (node (ref R32) (pin 2)))
+    (net (code 98) (name "")
+      (node (ref U8) (pin 2))
+      (node (ref R36) (pin 1))
+      (node (ref R34) (pin 2)))
+    (net (code 99) (name "")
+      (node (ref R36) (pin 2))
+      (node (ref U8) (pin 1))
+      (node (ref R38) (pin 1)))
+    (net (code 100) (name "")
+      (node (ref U7) (pin 13))
+      (node (ref R24) (pin 2))
+      (node (ref R26) (pin 1)))
+    (net (code 101) (name "")
+      (node (ref R24) (pin 1))
+      (node (ref R28) (pin 1))
+      (node (ref U7) (pin 1))
+      (node (ref RV3) (pin 2)))
+    (net (code 102) (name "")
+      (node (ref RV3) (pin 1))
+      (node (ref R22) (pin 2)))
+    (net (code 103) (name "")
+      (node (ref U8) (pin 10))
+      (node (ref R41) (pin 2)))
+    (net (code 104) (name "")
+      (node (ref U7) (pin 3))
+      (node (ref R18) (pin 2))
+      (node (ref R16) (pin 2)))
+    (net (code 105) (name "")
+      (node (ref U7) (pin 6))
+      (node (ref R23) (pin 1))
+      (node (ref R21) (pin 2)))
+    (net (code 106) (name "")
+      (node (ref R18) (pin 1))
+      (node (ref RV1) (pin 2)))
+    (net (code 107) (name "")
+      (node (ref U7) (pin 14))
+      (node (ref R29) (pin 1))
+      (node (ref R26) (pin 2)))
+    (net (code 108) (name "")
+      (node (ref U8) (pin 13))
+      (node (ref R42) (pin 2))
+      (node (ref R44) (pin 1)))
+    (net (code 109) (name "")
+      (node (ref R40) (pin 2))
+      (node (ref U8) (pin 12)))
+    (net (code 110) (name "")
+      (node (ref U8) (pin 9))
+      (node (ref R43) (pin 2))
+      (node (ref R45) (pin 1)))
+    (net (code 111) (name "")
+      (node (ref R44) (pin 2))
+      (node (ref U8) (pin 14))
+      (node (ref R46) (pin 1)))
+    (net (code 112) (name "")
+      (node (ref R23) (pin 2))
+      (node (ref RV4) (pin 3)))
+    (net (code 113) (name "")
+      (node (ref U8) (pin 5))
+      (node (ref R33) (pin 2)))
+    (net (code 114) (name "")
+      (node (ref U8) (pin 6))
+      (node (ref R37) (pin 1))
+      (node (ref R35) (pin 2)))
+    (net (code 115) (name "")
+      (node (ref U8) (pin 7))
+      (node (ref R39) (pin 1))
+      (node (ref R37) (pin 2)))
+    (net (code 116) (name "")
+      (node (ref U8) (pin 8))
+      (node (ref R47) (pin 1))
+      (node (ref R45) (pin 2)))
+    (net (code 117) (name "")
+      (node (ref RV3) (pin 3)))
+    (net (code 118) (name "")
+      (node (ref RV1) (pin 3)))
+    (net (code 119) (name "")
+      (node (ref RV2) (pin 1)))
+    (net (code 120) (name "")
+      (node (ref RV4) (pin 1)))))

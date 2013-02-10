@@ -1,17 +1,16 @@
-EESchema Schematic File Version 2  date Mon 03 Dec 2012 12:48:01 AM EST
+EESchema Schematic File Version 2  date Sun 10 Feb 2013 12:15:13 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
-LIBS:lasershark-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date "3 dec 2012"
-Rev ""
-Comp ""
+Title "LaserShark board"
+Date "10 feb 2013"
+Rev "2.1"
+Comp "Jeffrey Nelson"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -48,19 +47,19 @@ ILDA_Y-
 Text HLabel 1100 1950 2    60   Input ~ 0
 ILDA_Y+
 $Comp
-L GND #PWR067
+L GND #PWR072
 U 1 1 5073A73A
 P 1350 1250
-F 0 "#PWR067" H 1350 1200 30  0001 C CNN
+F 0 "#PWR072" H 1350 1200 30  0001 C CNN
 F 1 "GND" H 1350 1205 30  0001 C CNN
 	1    1350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L GND #PWR073
 U 1 1 5073A749
 P 1350 1750
-F 0 "#PWR068" H 1350 1700 30  0001 C CNN
+F 0 "#PWR073" H 1350 1700 30  0001 C CNN
 F 1 "GND" H 1350 1705 30  0001 C CNN
 	1    1350 1750
 	1    0    0    -1  
@@ -70,19 +69,19 @@ A_OUT
 Text HLabel 1100 2950 2    60   Input ~ 0
 B_OUT
 $Comp
-L GND #PWR069
+L GND #PWR074
 U 1 1 5073A789
 P 1350 2850
-F 0 "#PWR069" H 1350 2800 30  0001 C CNN
+F 0 "#PWR074" H 1350 2800 30  0001 C CNN
 F 1 "GND" H 1350 2805 30  0001 C CNN
 	1    1350 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L GND #PWR075
 U 1 1 5073A798
 P 1350 2350
-F 0 "#PWR070" H 1350 2300 30  0001 C CNN
+F 0 "#PWR075" H 1350 2300 30  0001 C CNN
 F 1 "GND" H 1350 2305 30  0001 C CNN
 	1    1350 2350
 	1    0    0    -1  
@@ -118,10 +117,10 @@ F 2 "61900211121" V 900 3250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR071
+L GND #PWR076
 U 1 1 50AF0CEC
 P 1350 3300
-F 0 "#PWR071" H 1350 3250 30  0001 C CNN
+F 0 "#PWR076" H 1350 3250 30  0001 C CNN
 F 1 "GND" H 1350 3255 30  0001 C CNN
 	1    1350 3300
 	1    0    0    -1  
