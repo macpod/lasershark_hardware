@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Sun 10 Feb 2013 01:24:22 AM EST
+PCBNEW-BOARD Version 2 date Sun 10 Feb 2013 01:33:13 AM EST
 
 # Created by Pcbnew(2012-nov-02)-testing
 
@@ -4684,7 +4684,7 @@ Po 178 125 1.27 1.524 0.3048 900
 De 0 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "LaserShark 2.0"
+Te "LaserShark 2.1"
 Po 101.75 132 1.27 1.524 0.3048 2700
 De 0 0 0 Normal
 $EndTEXTPCB
