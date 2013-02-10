@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 10 Feb 2013 12:15:13 AM EST
+EESchema Schematic File Version 2  date Sun 10 Feb 2013 02:33:20 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -480,6 +480,7 @@ U 1 1 50B5AF60
 P 1750 6100
 F 0 "JP14" H 1750 5900 60  0000 C CNN
 F 1 "PWR" V 1650 5950 60  0000 L CNN
+F 2 "HEADER_2_54X3" H 1750 6100 60  0001 C CNN
 	1    1750 6100
 	1    0    0    -1  
 $EndComp

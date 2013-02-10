@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 10 Feb 2013 12:15:13 AM EST
+EESchema Schematic File Version 2  date Sun 10 Feb 2013 02:33:20 AM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -176,6 +176,7 @@ P 9250 1300
 F 0 "JP4" H 8700 950 60  0000 C CNN
 F 1 "SWD" V 9250 1300 60  0000 C CNN
 F 2 "FTSH-105-01" V 9350 1300 60  0001 C CNN
+F 4 "FTSH-105-01" H 9250 1300 60  0001 C CNN "Manf"
 	1    9250 1300
 	1    0    0    -1  
 $EndComp
