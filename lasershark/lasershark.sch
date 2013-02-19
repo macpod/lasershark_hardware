@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Feb 2013 07:45:35 PM EST
+EESchema Schematic File Version 2  date Mon 18 Feb 2013 11:24:12 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Mon 18 Feb 2013 08:19:40 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-nov-02)-testing date = Mon 18 Feb 2013 11:23:13 PM EST
 
 BeginCmp
 TimeStamp = /507240BD;
@@ -99,7 +99,7 @@ IdModule  = 0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5071D7A1/5074F9CA;
+TimeStamp = /5071D7A1/5122FF7F;
 Reference = C15;
 ValeurCmp = 0.1uF;
 IdModule  = 0603;
@@ -687,6 +687,20 @@ IdModule  = 0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5071D7A1/5122F0D2;
+Reference = R51;
+ValeurCmp = 1K<0.1%;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5071D7A1/5122F0C3;
+Reference = R52;
+ValeurCmp = 1K<0.1%;
+IdModule  = 0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /50726B4C/5074D8C4;
 Reference = RV1;
 ValeurCmp = 1K;
@@ -750,10 +764,10 @@ IdModule  = MAX6104EUR+T;
 EndCmp
 
 BeginCmp
-TimeStamp = /5071D7A1/5074F957;
+TimeStamp = /5071D7A1/5122F5C2;
 Reference = U4;
-ValeurCmp = MAX6106EUR+T;
-IdModule  = MAX6106EUR+T;
+ValeurCmp = MCP6001T-I/OT;
+IdModule  = MCP6001T;
 EndCmp
 
 BeginCmp
