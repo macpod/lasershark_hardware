@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 18 Feb 2013 11:24:12 PM EST
+EESchema Schematic File Version 2  date Tue 19 Feb 2013 07:52:07 PM EST
 LIBS:lasershark
 LIBS:power
 LIBS:lasershark_logo
@@ -9,7 +9,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "LaserShark board"
-Date "19 feb 2013"
+Date "20 feb 2013"
 Rev "2.1"
 Comp "Jeffrey Nelson"
 Comment1 ""
